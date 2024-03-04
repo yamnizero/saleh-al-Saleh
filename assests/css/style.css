@@ -12379,3 +12379,45 @@ html:not(.mobile) .owl-animate-fadeInDown{
 .works-grid.grid-intro-2 .work-item .work-descr{
     font-size: 16px;
 }
+
+/* ==============================
+   rotating
+   ============================== */
+
+@-webkit-keyframes rotating /* Safari and Chrome */ {
+    from {
+      -webkit-transform:   rotate(0deg);
+      -o-transform:  rotate(0deg);
+      transform:   rotate(0deg);
+    }
+    to {
+      -webkit-transform:rotate(360deg);
+      -o-transform:  rotate(360deg);
+      transform:  rotate(360deg);
+    }
+  }
+  @keyframes rotating {
+    from {
+      -ms-transform:  rotate(0deg);
+      -moz-transform:  rotate(0deg);
+      -webkit-transform:  rotate(0deg);
+      -o-transform:   rotate(0deg);
+      transform:   rotate(0deg);
+    }
+    to {
+      -ms-transform:   rotateY(-0.2turn);
+      -moz-transform:   rotateY(-0.2turn);
+      -webkit-transform:    rotateY(-0.2turn);
+      -o-transform:  rotateY(-0.2turn);
+      transform: rotateY(90deg);
+      /* rotateY(3.142rad); */
+      
+    }
+  }
+  .rotating {
+    -webkit-animation: rotating 4s linear infinite alternate;
+    -moz-animation: rotating 4s linear infinite alternate;
+    -ms-animation: rotating 4s  linear infinite alternate;
+    -o-animation: rotating 4s  linear infinite alternate;
+    animation:rotating 4s linear infinite alternate;
+  }
