@@ -7294,7 +7294,8 @@ img.services-image{
 .work-img img{
     display: block;
     position: relative;
-    width: 100%;    
+    width: 100%;   
+    
     overflow: hidden;
     transform: rotate(0.001deg) translateZ(0);
 }
