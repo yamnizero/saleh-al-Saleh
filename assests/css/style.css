@@ -7294,7 +7294,8 @@ img.services-image{
 .work-img img{
     display: block;
     position: relative;
-    width: 100%;    
+    width: 100%;   
+    
     overflow: hidden;
     transform: rotate(0.001deg) translateZ(0);
 }
@@ -12379,3 +12380,95 @@ html:not(.mobile) .owl-animate-fadeInDown{
 .works-grid.grid-intro-2 .work-item .work-descr{
     font-size: 16px;
 }
+
+/* ==============================
+   rotating
+   ============================== */
+
+@-webkit-keyframes rotating /* Safari and Chrome */ {
+    from {
+      -webkit-transform:   rotate(0deg);
+      -o-transform:  rotate(0deg);
+      transform:   rotate(0deg);
+    }
+    to {
+      -webkit-transform:rotate(360deg);
+      -o-transform:  rotate(360deg);
+      transform:  rotate(360deg);
+    }
+  }
+  @keyframes rotating {
+    from {
+      -ms-transform:  rotate(0deg);
+      -moz-transform:  rotate(0deg);
+      -webkit-transform:  rotate(0deg);
+      -o-transform:   rotate(0deg);
+      transform:   rotate(0deg);
+    }
+    to {
+      -ms-transform:   rotateY(-0.2turn);
+      -moz-transform:   rotateY(-0.2turn);
+      -webkit-transform:    rotateY(-0.2turn);
+      -o-transform:  rotateY(-0.2turn);
+      transform: rotateY(90deg);
+      /* rotateY(3.142rad); */
+      
+    }
+  }
+  .rotating {
+    -webkit-animation: rotating 4s linear infinite alternate;
+    -moz-animation: rotating 4s linear infinite alternate;
+    -ms-animation: rotating 4s  linear infinite alternate;
+    -o-animation: rotating 4s  linear infinite alternate;
+    animation:rotating 4s linear infinite alternate;
+  }
+
+/* golden-button */
+      
+  .golden-button {
+    touch-action: manipulation;
+    display: inline-block;
+    outline: none;
+    font-family: inherit;
+    font-size: 1em;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 0.3em;
+    height: 2.75em;
+    line-height: 2.5em;
+    text-transform: uppercase;
+    padding: 0 1em;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(110, 80, 20, 0.4),
+      inset 0 -2px 5px 1px rgba(139, 66, 8, 1),
+      inset 0 -1px 1px 3px rgba(250, 227, 133, 1);
+    background-image: linear-gradient(
+      160deg,
+      #a54e07,
+      #b47e11,
+      #dac859,
+      #bc881b,
+      #e68739
+    );
+    border: 1px solid #a55d07;
+    color: rgb(120, 50, 5);
+    text-shadow: 0 2px 2px rgba(250, 227, 133, 1);
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    background-size: 100% 100%;
+    background-position: center;
+  }
+  
+  .golden-button:focus,
+  .golden-button:hover {
+    background-size: 150% 150%;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23),
+      inset 0 -2px 5px 1px #b17d10, inset 0 -1px 1px 3px rgba(250, 227, 133, 1);
+    border: 1px solid rgba(165, 93, 7, 0.6);
+    color: rgba(120, 50, 5, 0.8);
+  }
+  
+  .golden-button:active {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(110, 80, 20, 0.4),
+      inset 0 -2px 5px 1px #b17d10, inset 0 -1px 1px 3px rgba(250, 227, 133, 1);
+  }
+  
