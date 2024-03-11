@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <!-- Change the value of lang="en" attribute if your website's language is not English.
 You can find the code of your language here - https://www.w3schools.com/tags/ref_language_codes.asp -->
-<html lang="en">
+<html >
 
 <head>
 
@@ -76,7 +76,7 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
 
                         <!-- Item With Sub -->
                         <li>
-                            <a href="#" class="mn-has-sub active">Home <i class=""></i></a>
+                            <a href="#" data-i18n="home" class="mn-has-sub active">Home <i class=""></i></a>
 
 
 
@@ -85,7 +85,7 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
 
                         <!-- Item With Sub -->
                         <li>
-                            <a href="#" class="mn-has-sub">Service <i class="mi-chevron-down"></i></a>
+                            <a href="#" data-i18n="service" class="mn-has-sub">Service <i class="mi-chevron-down"></i></a>
 
                             <!-- Sub Megamenu -->
                             <ul class="mn-sub mn-has-multi">
@@ -186,7 +186,7 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
 
                         <!-- Item With Sub -->
                         <li>
-                            <a href="about-us.html" class="">About Us <i class=""></i></a>
+                            <a href="about-us.html" data-i18n="about" class="">About Us <i class=""></i></a>
 
 
 
@@ -195,11 +195,11 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
 
                         <!-- Item With Sub -->
                         <li>
-                            <a href="contact-us.html" class="">Contact Us</a>
+                            <a href="contact-us.html" data-i18n="contact" class="">Contact Us</a>
                         </li>
                         <!-- End Item With Sub -->
                         <li>
-                            <a href="#" class="mn-has-sub active">Team <i class=""></i></a>
+                            <a href="#" data-i18n="team"   class="mn-has-sub active">Team <i class=""></i></a>
 
 
 
@@ -273,12 +273,17 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
                         <li>
                             <a href="#" class="mn-has-sub opacity-1">En <i class="mi-chevron-down"></i></a>
 
-                            
-                            <ul class="mn-sub to-left">
-                                <li><a href="#" class="en">English</a></li>
-                                <li><a href="#" class="ar">Arabic</a></li>
+                            <select >
+                                <option value="en" selected data-i18n="english">English</option>
+                                <option value="ar" data-i18n="arabic">Arabic</option>
+                            </select>
 
-                            </ul>
+
+                            <!-- <ul class="mn-sub to-left">
+                                <li><a value="en" selected data-i18n="english"  class="en">English</a></li>
+                                <li><a value="ar" selected data-i18n="english"class="ar">Arabic</a></li>
+
+                            </ul> -->
 
                         </li>
                         <!-- End Languages -->
@@ -317,7 +322,7 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
                                             Resonance Creative Studio
                                         </h2> -->
 
-                                    <h1 class=" mb-30">
+                                    <h1 data-i18n="Saleh_Al_Saleh" class=" mb-30">
 
                                         <span class="wow charsAnimIn"                                                                                                                        data-splitting="chars">
                                             Saleh Al Saleh <small><br>Law Firm and Legal Consulting</small></span>
@@ -1055,6 +1060,7 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
     <script src="assests/js/jquery.ajaxchimp.min.js"></script>
     <script src="assests/js/contact-form.js"></script>
     <script src="assests/js/all.js"></script>
+    <script src="lang.js" type="module"></script>
     <!-- End JS -->
 
 </body>
