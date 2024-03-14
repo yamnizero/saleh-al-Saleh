@@ -34,9 +34,6 @@ document.addEventListener('DOMContentLoaded', () => {
 })
 const setLanguage = (language) => {
     const elements = document.querySelectorAll("[data-i18n]");
-    elements.forEach((element) =>{
-        const translationsKey = element.getAttribute("data-i18n");
-        element.textContent = translations[language][translationsKey]
-    });
+   
     document.dir = language == "ar" ? "rtl" :"ltr";
 };
