@@ -5,6 +5,9 @@ const translations = {
         service: 'Service',
         about: 'About US',
         contact: 'Contact Us',
+        FreeLegalAdvice:'Free Legal Advice',
+
+        
         // Service
         LegalConsultations:"Legal Consultations",
         legalDocuments:"Preparation and drafting of legal documents",
@@ -26,7 +29,7 @@ const translations = {
         ExecutiveActions:"Executive Actions",
         RealEstateDisputes:"Real estate disputes",
         DebtCollection:"Debt Collection",
-        
+
         // body
         Saleh_Al_Saleh: "Saleh Al Saleh Law Firm and Legal Consulting",
         body_index:"Saleh Al Saleh Law Firm and Legal Consulting is one of the most prominent legal services providers in the UAE through legal expertise and in professional ways, ensuring transactional satisfaction from any legal problems facing our valued clients. The Office deals in all kinds of civil, commercial and criminal cases and provides legal services in various fields and at all levels.",
@@ -35,6 +38,9 @@ const translations = {
         OurMissionBody: "we to provide exceptional legal guidance and support to our clients. We strive to offer personalized solutions, tailored to their unique needs and circumstances.  Our goal is not only to navigate legal complexities effectively but also to empower our clients with knowledge and confidence in their legal matters. With a commitment to integrity, professionalism, and client satisfaction, we aim to be a trusted partner in achieving our clients' legal objectives",
         OurVisionBody:"we to be the foremost destination for legal expertise and guidance, recognized for our unwavering commitment to excellence, innovation, and client satisfaction. We aspire to set new standards in the legal industry by fostering a culture of collaboration, integrity, and forward-thinking. Through our dedication to staying ahead of legal trends and advancements, we aim to empower individuals and businesses alike, ensuring they navigate legal challenges with confidence and clarity.",
         
+        OurServicesT:"Our Services",
+        OurServicesB:"We provide a wide range of legal services tailored to meet our clients needs.",
+        OurServicesO:"Our goal is to provide reliable and effective legal support, empowering clients to navigate complex legal matters confidently.",
         
         english: 'English',
         arabic: 'عربي',
@@ -42,11 +48,14 @@ const translations = {
     },
 
     ar: {
+
         //header
         home: "الصفحة الرئيسية",
         service: 'خدماتنا',
         about: 'من نحن',
         contact: 'تواصل معنا',
+        FreeLegalAdvice:'استشارة مجانا',
+
         // Service
         LegalConsultations:"الاستشارات القانونية",
         legalDocuments:"إعداد وصياغة الوثائق القانونية",
@@ -77,6 +86,9 @@ const translations = {
         OurMissionBody:"نحن نسعى لتقديم إرشاد قانوني استثنائي ودعم لعملائنا. نحن نسعى لتقديم حلول شخصية، مصممة لتلبية احتياجاتهم وظروفهم الفريدة. هدفنا ليس فقط توجيه العملاء عبر التعقيدات القانونية بفعالية، ولكن أيضًا تمكينهم بالمعرفة والثقة في شؤونهم القانونية. من خلال التزامنا بالنزاهة والاحترافية ورضا العملاء، نهدف إلى أن نكون شريكًا موثوقًا في تحقيق أهدافهم القانونية.",
         OurVisionBody:"نحن نسعى أن نكون الوجهة الرئيسية للخبرة القانونية والإرشاد، معترفين بالتزامنا الثابت بالتميز والابتكار ورضا العملاء. نطمح لوضع معايير جديدة في صناعة القانون من خلال تعزيز ثقافة التعاون والنزاهة والتفكير المستقبلي. من خلال التفاني للبقاء في صدارة الاتجاهات القانونية والتطورات، نهدف إلى تمكين الأفراد والشركات على حد سواء، مضمونين أنهم سيتخطون التحديات القانونية بثقة ووضوح.",
 
+        OurServicesT:"خدماتنا",
+        OurServicesB:"نحن نقدم مجموعة واسعة من الخدمات القانونية مصممة لتلبية احتياجات عملائنا.",
+        OurServicesO:"هدفنا هو تقديم دعم قانوني موثوق وفعّال، يمكن العملاء من التنقل بثقة في المسائل القانونية المعقدة.",
 
         english: 'English',
         arabic: 'عربي',
