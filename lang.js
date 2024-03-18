@@ -180,6 +180,13 @@ const translations = {
         ExecutiveActions:"Executive Actions",
         ExecutiveActionsB:"Legal representation in courts Our client lawyers are represented before judges in courts and in all proceedings, including:",
         ExecutiveActionsB1:"Submission of cases and preparation of warnings, pleadings, appeals, addresses and correspondence with the courts and the other party during all stages of litigation before the court of first instance, appeal and cassation. nforcement of judicial rulings We work through compulsory measures to liquidate the property of the other party and its bank accounts in order to implement judicial rulings.",
+        // Real estate disputes
+        RealEstateDisputes:"Real estate disputes",
+        RealEstateDisputesB:"Real estate disputes are among the most important issues related to real estate and property ownership in the United Arab Emirates. and these disputes vary according to the nature of the real estate relationship, whether it is about the property's ownership, construction or rent. and other real estate disputes, and to be able to resolve and remedy these disputes in a sound manner To avoid making mistakes that may not be commended, you should use the services of our real estate lawyer and use our advanced services to resolve these disputes in a systematic manner and analyse the associated risks. as well as the enjoyment of real estate contract drafting services, and everything related to the property .",
+        RealEstateDisputesB1:"Real Estate Dispute Lawyers in favor of The Favor of Law and Legal Consulting help you resolve your real estate disputes with ease and ease, because they are recognized professionals, so that they can handle matters related to your real estate disputes with professionalism, whatever the complexity and size of the case, due to their long and accumulated experience in the fields of real estate and the disputes arising therefrom. Our Office's working group is known for specializing in a number of methods of dispute resolution, including, but not limited to, arbitration, mediation and other alternatives to resolving real estate disputes.",
+        RealEstateDisputesB2:"As our team of lawyers specializing in real estate have long and successful skills and experience in this field, your path to litigation, if necessary, should be through them; Because they are the most capable of pursuing these disputes before the courts.",
+
+
         
         // body
         Saleh_Al_Saleh: "Saleh Al Saleh Law Firm and Legal Consulting",
@@ -379,7 +386,11 @@ const translations = {
         ExecutiveActions:"تنفيذ الإجراءات",
         ExecutiveActionsB:"التمثيل القانوني في المحاكم يتم تمثيل محامي عملائنا أمام القضاة في المحاكم وفي جميع الإجراءات، بما في ذلك:",
         ExecutiveActionsB1:"رفع القضايا وإعداد الإنذارات والمرافعات والطعون والمخاطبات والمراسلات مع المحاكم والطرف الآخر خلال جميع مراحل التقاضي أمام المحكمة الابتدائية والاستئناف والنقض. تنفيذ الأحكام القضائية نعمل من خلال الإجراءات الإجبارية على تصفية ممتلكات الطرف الآخر وحساباته البنكية من أجل تنفيذ الأحكام القضائية.",
-        
+        // Real estate disputes
+        RealEstateDisputes:"المنازعات العقارية",
+        RealEstateDisputesB:"تعد المنازعات العقارية من أهم القضايا المتعلقة بالعقارات والتملك العقاري في دولة الإمارات العربية المتحدة. وتختلف هذه النزاعات حسب طبيعة العلاقة العقارية سواء كان الأمر يتعلق بملكية العقار أو بنائه أو إيجاره. وغيرها من النزاعات العقارية، وللتمكن من حل هذه النزاعات ومعالجتها بطريقة سليمة لتجنب الوقوع في أخطاء قد لا تحمد عقباها، يجب عليك الاستعانة بخدمات محامينا العقاري واستخدام خدماتنا المتقدمة لحل هذه النزاعات في بطريقة منهجية وتحليل المخاطر المرتبطة بها. وكذلك الاستمتاع بخدمات صياغة العقود العقارية، وكل ما يتعلق بالعقار.",
+        RealEstateDisputesB1:"محامو المنازعات العقارية لصالح المحاماة والاستشارات القانونية يساعدونك على حل نزاعاتك العقارية بكل سهولة ويسر، لأنهم محترفون معترف بهم، حتى يتمكنوا من التعامل مع الأمور المتعلقة بنزاعاتك العقارية باحترافية مهما كانت درجة تعقيدها وحجم القضية، نظرا لخبرتهم الطويلة والمتراكمة في مجالات العقارات والمنازعات الناشئة عنها. ومن المعروف أن فريق العمل في مكتبنا متخصص في عدد من طرق حل النزاعات، بما في ذلك، على سبيل المثال لا الحصر، التحكيم والوساطة وغيرها من البدائل لحل النزاعات العقارية.",
+        RealEstateDisputesB2:"وبما أن فريقنا من المحامين المتخصصين في العقارات يتمتعون بمهارات وخبرات طويلة وناجحة في هذا المجال، فإن طريقك إلى التقاضي، إذا لزم الأمر، يجب أن يكون من خلالهم؛ لأنهم الأكثر قدرة على متابعة هذه النزاعات أمام المحاكم.",
         
         
         // body
