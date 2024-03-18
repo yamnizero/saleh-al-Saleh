@@ -154,8 +154,14 @@ const translations = {
         FamilyIssuesB:"Saleh Al Saleh Advocates and Legal Consultants works to represent many individuals in family disputes whether Muslim or non-Muslim. In the presence of defence and proceedings before the Family Steering Committee of family courts within the UAE, litigation varies from divorce according to state law or divorce according to the laws of foreign countries or cases of claiming alimony and custody in accordance with state law.",
         FamilyIssuesB1:"Family disputes are a wide and intertwined area of proceedings and proceedings before the courts. They have numerous temporary and expeditious procedures to guarantee the rights of the parties, including temporary maintenance claims for the wife whose husband refrains from spending on them, including children's alimony, the handover of children to the disputed father or mother, the temporary vision, counselling and counselling of clients on litigation proceedings during the hearings, where sometimes the personal attendance of the client, the children, as well as well as the sentencing procedures of the children, are not a large part of the children .",
         FamilyIssuesB2:"Saleh Al Saleh Advocates and Legal Consultants represents disputants in family lawsuits through its years of experience in achieving the best results for the disputants. Saleh Al Saleh Law Firm and Legal Consultations is interested in achieving those results quickly, especially in cases of the presence of children for the purpose of protecting them as they are the weak party in the subject of the dispute.",
-        
-        
+         //Insurance
+         Insurance:"Insurance",
+         InsuranceB:"The commercial and industrial renaissance led to the growth and prosperity of the insurance sector and increased the insurance awareness of all. Due to our theoretical and practical experiences in this field, Saleh Al Saleh Law Firm and Legal Consulting provides its legal services to the insurance sector of the United Arab Emirates, both for companies and individuals.",
+         InsuranceB1:"- Provide legal opinion and advice regarding insurance coverage for individuals and companies of various kinds such as fire, loss of property, car accidents, professional negligence, personal injury.",
+         InsuranceB2:"- Representing clients in all issues related to insurance disputes",
+         InsuranceB3:"- Resolve insurance disputes and negotiate payment with insurance companies",
+         
+
         
         
         
@@ -331,7 +337,12 @@ const translations = {
         FamilyIssuesB:"يعمل مكتب صالح الصالح للمحاماة والاستشارات القانونية على تمثيل العديد من الأفراد في النزاعات العائلية سواء كانوا مسلمين أو غير مسلمين. حيث يتمثل العمل في الدفاع والإجراءات أمام لجنة التوجيه العائلية في محاكم الأسرة داخل دولة الإمارات العربية المتحدة، وتتنوع القضايا من الطلاق وفقًا للقانون الدولة أو القانون الخاص بدول أجنبية أو قضايا المطالبة بالنفقة وحضانة الأطفال وفقًا للقانون الدولة.",
         FamilyIssuesB1:"النزاعات العائلية تمثل مجالًا واسعًا ومتشعبًا من الإجراءات والدعاوى أمام المحاكم. وهي تتضمن العديد من الإجراءات المؤقتة والسريعة لضمان حقوق الأطراف، بما في ذلك مطالبات الصيانة المؤقتة للزوجة التي يمتنع زوجها عن الإنفاق عليها، بما في ذلك النفقة للأطفال، تسليم الأطفال للأب أو الأم المتنازع عليهم، والرؤية المؤقتة، وتقديم النصائح والاستشارات للعملاء بشأن إجراءات المحاكمة خلال الجلسات، حيث يكون في بعض الأحيان حضور العميل الشخصي، والأطفال، وكذلك الإجراءات المتعلقة بالأطفال جزءًا كبيرًا من النزاعات.",
         FamilyIssuesB2:"يمثل مكتب صالح الصالح للمحاماة والاستشارات القانونية المتنازعين في الدعاوى العائلية من خلال سنوات من الخبرة في تحقيق أفضل النتائج للمتنازعين. يهتم المكتب بتحقيق هذه النتائج بشكل سريع، خاصة في حالات وجود الأطفال لحمايتهم لأنهم الطرف الضعيف في موضوع النزاع.",
-        
+        //Insurance
+        Insurance:"تأمين",
+        InsuranceB:"أدت النهضة التجارية والصناعية إلى نمو وازدهار قطاع التأمين وزيادة الوعي التأميني لدى الجميع. ونظرًا لتجاربنا النظرية والعملية في هذا المجال، يقدم مكتب صالح الصالح للمحاماة والاستشارات القانونية خدماته القانونية لقطاع التأمين في دولة الإمارات العربية المتحدة، سواء للشركات أو الأفراد.",
+        InsuranceB1:"- تقديم الرأي القانوني والمشورة بشأن التغطية التأمينية للأفراد والشركات من مختلف الأنواع مثل حرائق العقارات، فقدان الممتلكات، حوادث السيارات، الإهمال المهني، الإصابات الشخصية.",
+        InsuranceB2:"- تمثيل العملاء في جميع القضايا المتعلقة بالنزاعات التأمينية.",
+        InsuranceB3:"- حل النزاعات التأمينية والتفاوض على الدفع مع شركات التأمين.",
         
         
         // body
