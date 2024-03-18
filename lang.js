@@ -112,8 +112,11 @@ const translations = {
         LegalProceduresB17:"Family tree (family members and their guardian's dependents)",
         LegalProceduresB18:"Property details are supported by copies of title deeds",
         LegalProceduresB19:"Details of any other property",
-        
-        
+        LegalProceduresB20:"Consultants provides certification services from relevant authorities for foreign documents issued abroad as well as certification services for documents required by foreign agencies abroad by certifying the certified lawyer's stamp, including: Certification of the copy of travel passports and the copy of the invoices of services issued by local authorities and certificates of confirmation of addresses for individuals and companies. Certification services include all other papers such as commercial licenses, incorporation contracts, agreements, declarations, etc., which may require the establishment of offshore companies, opening of bank accounts abroad or applications for immigration and travel.",
+        LegalProceduresB21:"provides its services by viewing the authenticity of the documents and investigating the authenticity of the information contained in those statements and their source thereafter the certification and sealing of the relevant lawyer and the client receives a certified copy of the documents.",
+        LegalProceduresB22:"Certification services issued by Saleh Al Saleh Law Firm and Legal Consulting include confirmation of the authenticity of a person's signature in front of the lawyer through the presence of the person to be signed on the contract and after consulting his identity and passport. The contract is signed in front of the competent lawyer who signs the validity of the said person's signature in connection with the requirements of the sale of real estate in the United States Kingdom and foreign countries.",
+        LegalProceduresB23:"The entities receiving the certificates can review Saleh Al Saleh Law and Legal Advice to verify the authenticity of the lawyer's signature and the office will confirm the authenticity of the documents issued to the said authorities.",
+
         // body
         Saleh_Al_Saleh: "Saleh Al Saleh Law Firm and Legal Consulting",
         body_index:"Saleh Al Saleh Law Firm and Legal Consulting is one of the most prominent legal services providers in the UAE through legal expertise and in professional ways, ensuring transactional satisfaction from any legal problems facing our valued clients. The Office deals in all kinds of civil, commercial and criminal cases and provides legal services in various fields and at all levels.",
@@ -244,6 +247,11 @@ const translations = {
         LegalProceduresB17:"شجرة العائلة (أفراد الأسرة ومن يعولون ولي أمرهم)",
         LegalProceduresB18:"تفاصيل الملكية مدعومة بنسخ من سندات الملكية",
         LegalProceduresB19:"تفاصيل أي عقار آخر",
+        LegalProceduresB20:"يوفر المستشارون خدمات الشهادة من الجهات المختصة للوثائق الأجنبية الصادرة من الخارج، بالإضافة إلى خدمات الشهادة للوثائق المطلوبة من قبل الجهات الأجنبية في الخارج من خلال توثيق ختم المحامي المعتمد، وتشمل ذلك: توثيق نسخ جوازات السفر ونسخ فواتير الخدمات الصادرة عن السلطات المحلية وشهادات تأكيد العناوين للأفراد والشركات. تشمل خدمات التوثيق جميع الوثائق الأخرى مثل التراخيص التجارية وعقود الإنشاء والاتفاقيات والإعلانات وما إلى ذلك، التي قد تتطلب إنشاء شركات خارجية، أو فتح حسابات بنكية في الخارج، أو تقديم طلبات للهجرة والسفر.",
+        LegalProceduresB21:"يقدم خدماته من خلال فحص صحة الوثائق والتحقق من صحة المعلومات الواردة في تلك البيانات ومصدرها، ثم يتم توثيقها وختمها بواسطة المحامي المعني، ويتلقى العميل نسخة معتمدة من الوثائق.",
+        LegalProceduresB22:"تتضمن خدمات التوثيق التي تصدرها مكتب صالح الصالح للمحاماة والاستشارات القانونية تأكيد صحة توقيع الشخص أمام المحامي من خلال حضور الشخص الموقع على العقد وبعد التحقق من هويته وجواز سفره. يتم توقيع العقد أمام المحامي المختص الذي يوقع على صحة توقيع الشخص المذكور فيما يتعلق بمتطلبات بيع العقارات في المملكة المتحدة والدول الأجنبية.",
+        LegalProceduresB23:"يمكن للجهات المستلمة للشهادات مراجعة مكتب صالح الصالح للمحاماة والاستشارات القانونية للتحقق من صحة توقيع المحامي، وسيقوم المكتب بتأكيد صحة الوثائق المصدرة لتلك السلطات.",
+        
         
         // body
         Saleh_Al_Saleh: "صالح ال صالح للمحاماة و الاستشارات القانونية",
