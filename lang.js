@@ -129,6 +129,10 @@ const translations = {
         //Research services
         Researchservices:"Research services",
         ResearchservicesB:"Saleh Al Saleh Advocates and Legal Consultants provides legal research services through the preparation of specialized legal research and studies in various branches of laws and regulations through the Department of Scientific Research, Legitimacy and Jurisprudence, which is undoubtedly one of the most important references used in the fields of law and consulting . Saleh Al Saleh Advocates and Legal Consultants also offers legal training services through the holding of training legal courses for employees of private and public companies and institutions according to high scientific specifications that accommodate all legal disciplines, using the highest legal competencies.",
+        //Penal cases
+        PenalCases:"Penal cases",
+        PenalCasesB:"Saleh Al Saleh Advocates and Legal Consultants works to represent clients in criminal proceedings, whether irregularities, misdemeanors or felonies before the courts of first instance, appeals and cassation, according to the types of such criminal courts between passage, municipality, public prosecution and state security.",
+        
         // body
         Saleh_Al_Saleh: "Saleh Al Saleh Law Firm and Legal Consulting",
         body_index:"Saleh Al Saleh Law Firm and Legal Consulting is one of the most prominent legal services providers in the UAE through legal expertise and in professional ways, ensuring transactional satisfaction from any legal problems facing our valued clients. The Office deals in all kinds of civil, commercial and criminal cases and provides legal services in various fields and at all levels.",
@@ -276,6 +280,9 @@ const translations = {
         //Research services
         Researchservices:"خدمات البحث",
         ResearchservicesB:"يقدم مكتب صالح الصالح للمحاماة والاستشارات القانونية خدمات البحث القانوني من خلال إعداد البحوث والدراسات القانونية المتخصصة في مختلف فروع القوانين والتشريعات من خلال قسم البحث العلمي والشرعي والفقهي. تلك الخدمات هي بلا شك أحد أهم المراجع المستخدمة في مجالات القانون والاستشارات. بالإضافة إلى ذلك، يقدم مكتب صالح الصالح للمحاماة والاستشارات القانونية خدمات التدريب القانوني من خلال تنظيم دورات تدريبية قانونية لموظفي الشركات الخاصة والعامة والمؤسسات. تلك الدورات تلتزم بمواصفات علمية عالية تتناسب مع جميع التخصصات القانونية وتستفيد من أعلى الكفاءات القانونية المتاحة.",
+        //Penal cases
+        PenalCases:"القضايا الجنائية",
+        PenalCaseB:"يعمل مكتب صالح الصالح للمحاماة والاستشارات القانونية على تمثيل العملاء في الإجراءات الجنائية، سواء كانت مخالفات أو جنح أو جرائم أمام محاكم الدرجة الأولى، ومحاكم الاستئناف، ومحاكم النقض، وفقًا لأنواع هذه المحاكم الجنائية بين محاكم المرور والبلديات والنيابة العامة وأمن الدولة.",
         // body
         Saleh_Al_Saleh: "صالح ال صالح للمحاماة و الاستشارات القانونية",
         body_index:"مكتب صالح الصالح للمحاماة والاستشارات القانونية هو واحد من أبرز مقدمي الخدمات القانونية في الإمارات العربية المتحدة من خلال الخبرة القانونية والطرق المهنية، مضمونًا رضى العملاء من المشاكل القانونية التي تواجهها. يتعامل المكتب في جميع أنواع القضايا المدنية والتجارية والجنائية ويقدم خدمات قانونية في مختلف المجالات وعلى جميع المستويات.",
