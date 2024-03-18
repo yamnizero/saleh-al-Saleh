@@ -149,7 +149,11 @@ const translations = {
         //Rent Disputes
         RentDisputes:"Rent Disputes",
         RentDisputesB:"Undoubtedly, the UAE is one of the countries that relies heavily on real estate investment. A close follow-up of the UAE's real estate market and more recently.Saleh Al Saleh Advocates and Legal Consultants prepares, lists and follows up on all rental advocacy - eviction - compensation - reimbursement of rental value - assignment of expertise to evaluate the value of the rent of the property and any damages if any. and before the Urgent Matters Judge if necessary in some and all cases: Primary / Appeal / Cassation",
-        
+        //Family issues and conditions
+        FamilyIssues:"Family issues and conditions",
+        FamilyIssuesB:"Saleh Al Saleh Advocates and Legal Consultants works to represent many individuals in family disputes whether Muslim or non-Muslim. In the presence of defence and proceedings before the Family Steering Committee of family courts within the UAE, litigation varies from divorce according to state law or divorce according to the laws of foreign countries or cases of claiming alimony and custody in accordance with state law.",
+        FamilyIssuesB1:"Family disputes are a wide and intertwined area of proceedings and proceedings before the courts. They have numerous temporary and expeditious procedures to guarantee the rights of the parties, including temporary maintenance claims for the wife whose husband refrains from spending on them, including children's alimony, the handover of children to the disputed father or mother, the temporary vision, counselling and counselling of clients on litigation proceedings during the hearings, where sometimes the personal attendance of the client, the children, as well as well as the sentencing procedures of the children, are not a large part of the children .",
+        FamilyIssuesB2:"Saleh Al Saleh Advocates and Legal Consultants represents disputants in family lawsuits through its years of experience in achieving the best results for the disputants. Saleh Al Saleh Law Firm and Legal Consultations is interested in achieving those results quickly, especially in cases of the presence of children for the purpose of protecting them as they are the weak party in the subject of the dispute.",
         
         
         
@@ -322,7 +326,11 @@ const translations = {
         //Rent Disputes
         RentDisputes:"نزاعات الإيجار",
         RentDisputesB:"لا شك أن الإمارات من بين الدول التي تعتمد بشكل كبير على الاستثمار العقاري. يقوم مكتب صالح الصالح للمحاماة والاستشارات القانونية بإعداد وتقديم ومتابعة جميع الدعاوى الخاصة بالإيجار - الطرد - التعويض - استرجاع قيمة الإيجار - تعيين خبير لتقييم قيمة الإيجار للعقار وأية أضرار إذا وجدت. وقبل القاضي للأمور العاجلة إذا لزم الأمر في بعض الحالات وجميعها: الدرجة الأولى / الاستئناف / النقض.",
-        
+        //Family issues and conditions
+        FamilyIssues:"قضايا الأسرة وأحوالها",
+        FamilyIssuesB:"يعمل مكتب صالح الصالح للمحاماة والاستشارات القانونية على تمثيل العديد من الأفراد في النزاعات العائلية سواء كانوا مسلمين أو غير مسلمين. حيث يتمثل العمل في الدفاع والإجراءات أمام لجنة التوجيه العائلية في محاكم الأسرة داخل دولة الإمارات العربية المتحدة، وتتنوع القضايا من الطلاق وفقًا للقانون الدولة أو القانون الخاص بدول أجنبية أو قضايا المطالبة بالنفقة وحضانة الأطفال وفقًا للقانون الدولة.",
+        FamilyIssuesB1:"النزاعات العائلية تمثل مجالًا واسعًا ومتشعبًا من الإجراءات والدعاوى أمام المحاكم. وهي تتضمن العديد من الإجراءات المؤقتة والسريعة لضمان حقوق الأطراف، بما في ذلك مطالبات الصيانة المؤقتة للزوجة التي يمتنع زوجها عن الإنفاق عليها، بما في ذلك النفقة للأطفال، تسليم الأطفال للأب أو الأم المتنازع عليهم، والرؤية المؤقتة، وتقديم النصائح والاستشارات للعملاء بشأن إجراءات المحاكمة خلال الجلسات، حيث يكون في بعض الأحيان حضور العميل الشخصي، والأطفال، وكذلك الإجراءات المتعلقة بالأطفال جزءًا كبيرًا من النزاعات.",
+        FamilyIssuesB2:"يمثل مكتب صالح الصالح للمحاماة والاستشارات القانونية المتنازعين في الدعاوى العائلية من خلال سنوات من الخبرة في تحقيق أفضل النتائج للمتنازعين. يهتم المكتب بتحقيق هذه النتائج بشكل سريع، خاصة في حالات وجود الأطفال لحمايتهم لأنهم الطرف الضعيف في موضوع النزاع.",
         
         
         
