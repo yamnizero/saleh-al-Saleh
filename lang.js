@@ -173,7 +173,10 @@ const translations = {
         LitigationResolution:"Litigation and Dispute Resolution",
         LitigationResolutionB:"Litigation is the most widely used means of dispute resolution in the United Arab Emirates and Saleh Al Saleh Law Firm and Legal Consulting has an unprecedented team of trusted citizen lawyers supported by a number of legal advisers with knowledge and expertise in many legal aspects.",
         LitigationResolutionB1:"Saleh Al Saleh Advocates and Legal Consultants has a team with unprecedented trust from citizen lawyers supported by a number of legal advisers with knowledge and expertise in many legal aspects: civil, commercial, criminal, labour and corporate disputes. our team represents all clients before various courts, whether in the courts of Primary / Appeal / Cassation in the Seven Emirates.",
-        
+        //Precautionary measures
+        PrecautionaryMeasures:"Precautionary measures",
+        PrecautionaryMeasuresB:"Issuing orders for the confiscation of property, bank accounts and balances by any third party, preventing individuals from travelling, etc., in order to prevent the other party from concealing property or leaving the State to escape.",
+
         
         // body
         Saleh_Al_Saleh: "Saleh Al Saleh Law Firm and Legal Consulting",
@@ -366,6 +369,9 @@ const translations = {
         LitigationResolution:"التقاضي وحل النزاعات",
         LitigationResolutionB:"التقاضي هو الوسيلة الأكثر استخدامًا لتسوية المنازعات في دولة الإمارات العربية المتحدة، ولدى مكتب صالح آل صالح للمحاماة والاستشارات القانونية فريق غير مسبوق من المحامين المواطنين الموثوق بهم يدعمهم عدد من المستشارين القانونيين ذوي المعرفة والخبرة في العديد من الجوانب القانونية.",
         LitigationResolutionB1:"لدى صالح آل صالح للمحاماة والاستشارات القانونية فريق يتمتع بثقة غير مسبوقة من المحامين المواطنين يدعمه عدد من المستشارين القانونيين ذوي المعرفة والخبرة في العديد من الجوانب القانونية: المنازعات المدنية والتجارية والجنائية والعمالية والشركات. يقوم فريقنا بتمثيل جميع العملاء أمام مختلف المحاكم سواء في المحاكم الابتدائية / الاستئناف / النقض في الإمارات السبع.",
+         //Precautionary measures
+        PrecautionaryMeasures:"تدابير وقائية",
+        PrecautionaryMeasuresB:"إصدار الأوامر بمصادرة الممتلكات والحسابات والأرصدة المصرفية لأي طرف ثالث، ومنع الأفراد من السفر وغيرها، وذلك لمنع الطرف الآخر من إخفاء الممتلكات أو مغادرة الدولة هرباً.",
         
         
         
