@@ -166,7 +166,10 @@ const translations = {
          //Banking and Finance
          BankingFinance:"Banking and Finance",
          BankingFinanceB:"Banking and financial institutions in the country are one of the most important pillars of the national economy. They are therefore highly interested in the economy. Saleh Al-Saleh Law Firm and Legal Consultants recognized this importance and worked to represent many banking institutions and was interested in the work of these institutions.",
-        
+        //Trading companies
+        TradingCompanies:"Trading companies",
+        TradingCompaniesB:"Al Saleh Al Saleh Lawyers and Legal Consultants Team is experienced and continuously following up on all laws that determine the shape of the company and the procedures for establishing each of them. Our lawyers and advisors can provide advice and guidance to all investors .",
+
         
         
         // body
@@ -353,6 +356,14 @@ const translations = {
         //Banking and Finance
         BankingFinance:"الخدمات المصرفية والمالية",
         BankingFinanceB:"تعد المؤسسات المصرفية والمالية في الدولة من أهم ركائز الاقتصاد الوطني. ولذلك فهم مهتمون للغاية بالاقتصاد. وقد أدرك مكتب صالح الصالح للمحاماة والاستشارات القانونية هذه الأهمية وعمل على تمثيل العديد من المؤسسات المصرفية واهتم بعمل هذه المؤسسات.",
+        //Trading companies
+        TradingCompanies:"الشركات التجارية",
+        TradingCompaniesB:" يتمتع فريق مكتب الصالح للمحاماة والاستشارات القانونية بالخبرة والمتابعة المستمرة لجميع القوانين التي تحدد شكل الشركة وإجراءات تأسيس كل منها. يمكن لمحامينا ومستشارينا تقديم المشورة والتوجيه لجميع المستثمرين.",
+        
+        
+        
+        
+        
         // body
         Saleh_Al_Saleh: "صالح ال صالح للمحاماة و الاستشارات القانونية",
         body_index:"مكتب صالح الصالح للمحاماة والاستشارات القانونية هو واحد من أبرز مقدمي الخدمات القانونية في الإمارات العربية المتحدة من خلال الخبرة القانونية والطرق المهنية، مضمونًا رضى العملاء من المشاكل القانونية التي تواجهها. يتعامل المكتب في جميع أنواع القضايا المدنية والتجارية والجنائية ويقدم خدمات قانونية في مختلف المجالات وعلى جميع المستويات.",
