@@ -176,7 +176,10 @@ const translations = {
         //Precautionary measures
         PrecautionaryMeasures:"Precautionary measures",
         PrecautionaryMeasuresB:"Issuing orders for the confiscation of property, bank accounts and balances by any third party, preventing individuals from travelling, etc., in order to prevent the other party from concealing property or leaving the State to escape.",
-
+        //Executive Actions
+        ExecutiveActions:"Executive Actions",
+        ExecutiveActionsB:"Legal representation in courts Our client lawyers are represented before judges in courts and in all proceedings, including:",
+        ExecutiveActionsB1:"Submission of cases and preparation of warnings, pleadings, appeals, addresses and correspondence with the courts and the other party during all stages of litigation before the court of first instance, appeal and cassation. nforcement of judicial rulings We work through compulsory measures to liquidate the property of the other party and its bank accounts in order to implement judicial rulings.",
         
         // body
         Saleh_Al_Saleh: "Saleh Al Saleh Law Firm and Legal Consulting",
@@ -372,7 +375,10 @@ const translations = {
          //Precautionary measures
         PrecautionaryMeasures:"تدابير وقائية",
         PrecautionaryMeasuresB:"إصدار الأوامر بمصادرة الممتلكات والحسابات والأرصدة المصرفية لأي طرف ثالث، ومنع الأفراد من السفر وغيرها، وذلك لمنع الطرف الآخر من إخفاء الممتلكات أو مغادرة الدولة هرباً.",
-        
+        //Executive Actions
+        ExecutiveActions:"تنفيذ الإجراءات",
+        ExecutiveActionsB:"التمثيل القانوني في المحاكم يتم تمثيل محامي عملائنا أمام القضاة في المحاكم وفي جميع الإجراءات، بما في ذلك:",
+        ExecutiveActionsB1:"رفع القضايا وإعداد الإنذارات والمرافعات والطعون والمخاطبات والمراسلات مع المحاكم والطرف الآخر خلال جميع مراحل التقاضي أمام المحكمة الابتدائية والاستئناف والنقض. تنفيذ الأحكام القضائية نعمل من خلال الإجراءات الإجبارية على تصفية ممتلكات الطرف الآخر وحساباته البنكية من أجل تنفيذ الأحكام القضائية.",
         
         
         
