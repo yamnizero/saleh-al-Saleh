@@ -116,7 +116,15 @@ const translations = {
         LegalProceduresB21:"provides its services by viewing the authenticity of the documents and investigating the authenticity of the information contained in those statements and their source thereafter the certification and sealing of the relevant lawyer and the client receives a certified copy of the documents.",
         LegalProceduresB22:"Certification services issued by Saleh Al Saleh Law Firm and Legal Consulting include confirmation of the authenticity of a person's signature in front of the lawyer through the presence of the person to be signed on the contract and after consulting his identity and passport. The contract is signed in front of the competent lawyer who signs the validity of the said person's signature in connection with the requirements of the sale of real estate in the United States Kingdom and foreign countries.",
         LegalProceduresB23:"The entities receiving the certificates can review Saleh Al Saleh Law and Legal Advice to verify the authenticity of the lawyer's signature and the office will confirm the authenticity of the documents issued to the said authorities.",
-
+        
+        //Legal Representation
+        LegalRepresentation:"Legal Representation",
+        LegalRepresentationB:"Customers who perform business in the UAE or with Emirati companies may find themselves liable to litigation in the courts. Our legal experts have considerable experience in commercial litigation in UAE courts, representing plaintiffs and defendants. We understand the complex practices of the region's litigation process and can provide you with representation in difficult aggressive rivalries.",
+        LegalRepresentationB1:"has the experience and know-how in recording and following up all types of cases, lawsuits, and pleadings, and practical and scientific know-how in various types of civil, commercial, administrative, and enforcement procedures, labor and legal cases, and criminal cases in all types of courts of all degrees, primary - appeal and the Federal Supreme Court (cassation) at the level the state",
+        LegalRepresentationB2:"This includes:- Representing clients and appearing before all types and levels of courts, including the Court of First Instance, the Court of Appeal, the Court of Cassation, Enforcement, Examination or Interrogation, the Clerk of Justice, the Attorney General, other judicial bodies, police services, all bodies, services, references and other official ministries within and outside the United Arab Emirates.",
+        LegalRepresentationB3:"Attending investigations",
+        LegalRepresentationB4:"Filing, pleading, following up and executing claims...etc",
+        LegalRepresentationB5:"Submit a notification",
         // body
         Saleh_Al_Saleh: "Saleh Al Saleh Law Firm and Legal Consulting",
         body_index:"Saleh Al Saleh Law Firm and Legal Consulting is one of the most prominent legal services providers in the UAE through legal expertise and in professional ways, ensuring transactional satisfaction from any legal problems facing our valued clients. The Office deals in all kinds of civil, commercial and criminal cases and provides legal services in various fields and at all levels.",
@@ -252,6 +260,14 @@ const translations = {
         LegalProceduresB22:"تتضمن خدمات التوثيق التي تصدرها مكتب صالح الصالح للمحاماة والاستشارات القانونية تأكيد صحة توقيع الشخص أمام المحامي من خلال حضور الشخص الموقع على العقد وبعد التحقق من هويته وجواز سفره. يتم توقيع العقد أمام المحامي المختص الذي يوقع على صحة توقيع الشخص المذكور فيما يتعلق بمتطلبات بيع العقارات في المملكة المتحدة والدول الأجنبية.",
         LegalProceduresB23:"يمكن للجهات المستلمة للشهادات مراجعة مكتب صالح الصالح للمحاماة والاستشارات القانونية للتحقق من صحة توقيع المحامي، وسيقوم المكتب بتأكيد صحة الوثائق المصدرة لتلك السلطات.",
         
+        //Legal Representation
+        LegalRepresentation:"تمثيل قانوني",
+        LegalRepresentationB:"العملاء الذين يقومون بالأعمال التجارية في الإمارات أو مع شركات إماراتية قد يجدون أنفسهم مسؤولين أمام المحاكم. لدينا خبراء قانونيون لديهم خبرة كبيرة في التقاضي التجاري في محاكم الإمارات، حيث يمثلون المدعين والمدعى عليهم. نحن نفهم الممارسات المعقدة لعملية التقاضي في المنطقة ويمكننا توفير تمثيل قانوني لكم في المنافسات العدائية الصعبة.",
+        LegalRepresentationB1:"لدينا الخبرة والمعرفة في تسجيل ومتابعة جميع أنواع القضايا والدعاوى والمرافعات، والمعرفة العملية والعلمية في مختلف أنواع الإجراءات المدنية والتجارية والإدارية والتنفيذية، والقضايا العمالية والقانونية، والجنائية في جميع أنواع المحاكم من جميع الدرجات، الأولية - الاستئناف والمحكمة العليا الاتحادية (النقض) على مستوى الدولة.",
+        LegalRepresentationB2:"يشمل ذلك: - تمثيل العملاء والمثول أمام جميع أنواع ومستويات المحاكم، بما في ذلك محكمة الدرجة الأولى، ومحكمة الاستئناف، ومحكمة النقض، والتنفيذ، والفحص أو التحقيق، وأمين العدل، والنائب العام، وهيئات قضائية أخرى، وخدمات الشرطة، وجميع الهيئات، والخدمات، والمراجع، والوزارات الرسمية الأخرى داخل وخارج دولة الإمارات العربية المتحدة.",
+        LegalRepresentationB3:"حضور التحقيقات",
+        LegalRepresentationB4:"تقديم الدعاوى، والمرافعة، ومتابعة الشكاوى، وتنفيذها، وما إلى ذلك",
+        LegalRepresentationB5:"تقديم إخطار",
         
         // body
         Saleh_Al_Saleh: "صالح ال صالح للمحاماة و الاستشارات القانونية",
