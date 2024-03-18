@@ -160,7 +160,9 @@ const translations = {
          InsuranceB1:"- Provide legal opinion and advice regarding insurance coverage for individuals and companies of various kinds such as fire, loss of property, car accidents, professional negligence, personal injury.",
          InsuranceB2:"- Representing clients in all issues related to insurance disputes",
          InsuranceB3:"- Resolve insurance disputes and negotiate payment with insurance companies",
-         
+         //Maritime disputes
+         MaritimeDisputes:"Maritime disputes",
+         MaritimeDisputesB:"Saleh Al Saleh Advocates and Legal Consultants is part of a few legal offices with knowledge and research in the field of maritime law. Saleh Al Saleh Law and Legal Consulting members are keen to provide the necessary research and studies in this regard.",
 
         
         
@@ -343,7 +345,9 @@ const translations = {
         InsuranceB1:"- تقديم الرأي القانوني والمشورة بشأن التغطية التأمينية للأفراد والشركات من مختلف الأنواع مثل حرائق العقارات، فقدان الممتلكات، حوادث السيارات، الإهمال المهني، الإصابات الشخصية.",
         InsuranceB2:"- تمثيل العملاء في جميع القضايا المتعلقة بالنزاعات التأمينية.",
         InsuranceB3:"- حل النزاعات التأمينية والتفاوض على الدفع مع شركات التأمين.",
-        
+        //Maritime disputes
+        MaritimeDisputes:"النزاعات البحرية",
+        MaritimeDisputesB:"يعد مكتب صالح آل صالح للمحاماة والاستشارات القانونية جزءًا من عدد قليل من المكاتب القانونية التي تتمتع بالمعرفة والأبحاث في مجال القانون البحري. ويحرص أعضاء مكتب صالح آل صالح للمحاماة والاستشارات القانونية على تقديم الأبحاث والدراسات اللازمة في هذا الشأن.",
         
         // body
         Saleh_Al_Saleh: "صالح ال صالح للمحاماة و الاستشارات القانونية",
