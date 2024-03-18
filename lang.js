@@ -141,6 +141,18 @@ const translations = {
         //Cybercrime Lawsuit
         CybercrimeLawsuit:"Cybercrime Lawsuit",
         CybercrimeLawsuitB:"The technology's global trade. The latest IT laws are adopted to enable you to legally excel in this field by keeping pace with transformations and under Federal Law No. 1.",
+        //Labor Lawsuit
+        LaborLawsuit:"Labor Lawsuit",
+        LaborLawsuitB:"Saleh Al Saleh Advocates and Legal Consultants works to represent many employees and employers from enterprises, companies and individuals in cases filed before the labour courts to claim and settle accounts due between the parties. Saleh Al Saleh Advocates and Legal Consultants represents many employees and employers from enterprises, companies and individuals in the lawsuits filed before the labour courts in order to claim and settle the accounts due between the parties. Saleh Al Saleh Legal Consultants represents employees or employers in those cases before the courts of first instance, appeals, cassation and experience assigned to the accounting and liquidation of workers' entitlements for both fixed and indefinite judicial contracts against private or governmental or semi-governmental companies before both human and private courts.",
+        LaborLawsuitB1:"Saleh Al Saleh Advocates and Legal Consultants represents employees in claiming their workers' benefits by claiming late salaries, arbitrary dismissal, accrued leave balance, end of service, arbitrary dismissal, overtime, working allowance during holidays and public holidays, claiming periodic equivalents, commissions and ratios, as well as seeking compensation for direct damages in the event of a breach of their obligations by the employer Delivery of delivered materials to employees, unlawful competition, breach of confidentiality and damages to the employer for the staff member's gross error and exemption of the employer from claims for overtime for staff in senior management positions.",
+        LaborLawsuitB2:"Saleh Al Saleh Advocates and Legal Consultants has practical experiences in achieving the best results in presenting the facts and legal principles that guarantee clients the desired result in cases of arbitrary dismissal and cases whether by forcing the worker to leave work or submit his resignation or false reports of escape, arbitrary suspensions and extensions of separation and employment under assignment contracts to ensure that the client has practical experiences during his representation in the required disputes.",
+        
+        
+        
+        
+        
+        
+        
         // body
         Saleh_Al_Saleh: "Saleh Al Saleh Law Firm and Legal Consulting",
         body_index:"Saleh Al Saleh Law Firm and Legal Consulting is one of the most prominent legal services providers in the UAE through legal expertise and in professional ways, ensuring transactional satisfaction from any legal problems facing our valued clients. The Office deals in all kinds of civil, commercial and criminal cases and provides legal services in various fields and at all levels.",
@@ -300,6 +312,11 @@ const translations = {
         //Cybercrime Lawsuit
         CybercrimeLawsuit:"قضية جرائم الإنترنت",
         CybercrimeLawsuitB:"تجارة التكنولوجيا العالمية. يتم اعتماد أحدث قوانين تكنولوجيا المعلومات لتمكينك من التفوق قانونيًا في هذا المجال من خلال مواكبة التحولات وفقًا للقانون الاتحادي رقم 1.",
+        //Labor Lawsuit
+        LaborLawsuit:"قضية عمالية",
+        LaborLawsuitB:"يعمل مكتب صالح الصالح للمحاماة والاستشارات القانونية على تمثيل العديد من الموظفين وأصحاب العمل من المؤسسات والشركات والأفراد في القضايا المقدمة أمام محاكم العمل للمطالبة بتسوية الحسابات المستحقة بين الأطراف. يمثل مكتب صالح الصالح للمحاماة والاستشارات القانونية العديد من الموظفين وأصحاب العمل من المؤسسات والشركات والأفراد في الدعاوى المقدمة أمام محاكم العمل من أجل المطالبة بتسوية الحسابات المستحقة بين الأطراف. كما يمثل مكتب صالح الصالح للمحاماة والاستشارات القانونية الموظفين أو أصحاب العمل في تلك القضايا أمام محاكم الدرجة الأولى واستئنافية والنقض، ويتمتع بخبرة في مجال المحاسبة وتصفية مستحقات العمال بموجب عقود قضائية ثابتة وغير ثابتة ضد الشركات الخاصة أو الحكومية أو شبه الحكومية أمام كل من المحاكم البشرية والخاصة.",
+        LaborLawsuitB1:"تمثل مكتب صالح الصالح للمحاماة والاستشارات القانونية الموظفين في المطالبة بحقوقهم العمالية من خلال مطالبة بالرواتب المتأخرة، والفصل التعسفي، ورصيد الإجازات المستحقة، ونهاية الخدمة، والإجازات التعسفية، والساعات الإضافية، والعمولات والنسب المستحقة، بالإضافة إلى طلب التعويض عن الأضرار المباشرة في حالة انتهاك صاحب العمل لالتزاماته، مثل تسليم المواد بشكل غير قانوني للموظفين، والمنافسة غير القانونية، وانتهاك سرية المعلومات، والأضرار التي تلحق بالمشغل نتيجة لخطأ فادح من الموظف، بالإضافة إلى إعفاء صاحب العمل من المطالبات بساعات العمل الإضافية للموظفين في مناصب الإدارة العليا.",
+        LaborLawsuitB2:"تمتلك مكتب صالح الصالح للمحاماة والاستشارات القانونية خبرة عملية في تحقيق أفضل النتائج من خلال تقديم الحقائق والمبادئ القانونية التي تضمن للعملاء النتيجة المرجوة في حالات الفصل التعسفي والقضايا سواء بإجبار العامل على مغادرة العمل أو تقديم استقالته أو تقارير كاذبة عن الفرار، والتوقف التعسفي عن العمل وتمديد فترات الفصل والتوظيف بموجب عقود التكليف لضمان أن للعميل خبرات عملية أثناء تمثيله في النزاعات المطلوبة.",
         // body
         Saleh_Al_Saleh: "صالح ال صالح للمحاماة و الاستشارات القانونية",
         body_index:"مكتب صالح الصالح للمحاماة والاستشارات القانونية هو واحد من أبرز مقدمي الخدمات القانونية في الإمارات العربية المتحدة من خلال الخبرة القانونية والطرق المهنية، مضمونًا رضى العملاء من المشاكل القانونية التي تواجهها. يتعامل المكتب في جميع أنواع القضايا المدنية والتجارية والجنائية ويقدم خدمات قانونية في مختلف المجالات وعلى جميع المستويات.",
