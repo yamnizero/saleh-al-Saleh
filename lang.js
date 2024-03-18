@@ -7,6 +7,9 @@ const translations = {
         contact: 'Contact Us',
         FreeLegalAdvice:'Free Legal Advice',
 
+        //about us
+        aboutUsB:"Saleh Al Saleh Law Firm and Legal Consulting provide a wide range of legal services through legal expertise and in professional ways, ensuring transactional satisfaction from any legal problems facing our valued clients. The Office deals in all kinds of civil, commercial and criminal cases and provides legal services in various fields and at all levels. Advocate\ Saleh Al Saleh is one of the distinguished lawyers in the UAE and has more than 21 years of experience in the field of law. The office has a good reputation. Advocate\ Saleh Al Saleh is interested in appointing the best lawyers and advisors with experience in the field of law for many years.",
+
         
         // Service
         LegalConsultations:"Legal Consultations",
@@ -219,6 +222,9 @@ const translations = {
         about: 'من نحن',
         contact: 'تواصل معنا',
         FreeLegalAdvice:'استشارة مجانا',
+
+         //about us
+         aboutUsB:"تقدم مكتب صالح الصالح للمحاماة والاستشارات القانونية مجموعة واسعة من الخدمات القانونية من خلال الخبرة القانونية وبطرق محترفة، مضمونة رضا العملاء من أي مشاكل قانونية تواجههم. يتعامل المكتب في جميع أنواع القضايا المدنية والتجارية والجنائية ويقدم خدمات قانونية في مختلف المجالات وعلى جميع المستويات. المحامي صالح الصالح هو أحد المحامين المتميزين في الإمارات العربية المتحدة ولديه أكثر من 21 عامًا من الخبرة في مجال القانون. يتمتع المكتب بسمعة جيدة. يولي المحامي صالح الصالح اهتمامًا خاصًا بتعيين أفضل المحامين والمستشارين ذوي الخبرة في مجال القانون لسنوات عديدة.",
 
         // Service
         LegalConsultations:"الاستشارات القانونية",
