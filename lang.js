@@ -163,7 +163,9 @@ const translations = {
          //Maritime disputes
          MaritimeDisputes:"Maritime disputes",
          MaritimeDisputesB:"Saleh Al Saleh Advocates and Legal Consultants is part of a few legal offices with knowledge and research in the field of maritime law. Saleh Al Saleh Law and Legal Consulting members are keen to provide the necessary research and studies in this regard.",
-
+         //Banking and Finance
+         BankingFinance:"Banking and Finance",
+         BankingFinanceB:"Banking and financial institutions in the country are one of the most important pillars of the national economy. They are therefore highly interested in the economy. Saleh Al-Saleh Law Firm and Legal Consultants recognized this importance and worked to represent many banking institutions and was interested in the work of these institutions.",
         
         
         
@@ -348,7 +350,9 @@ const translations = {
         //Maritime disputes
         MaritimeDisputes:"النزاعات البحرية",
         MaritimeDisputesB:"يعد مكتب صالح آل صالح للمحاماة والاستشارات القانونية جزءًا من عدد قليل من المكاتب القانونية التي تتمتع بالمعرفة والأبحاث في مجال القانون البحري. ويحرص أعضاء مكتب صالح آل صالح للمحاماة والاستشارات القانونية على تقديم الأبحاث والدراسات اللازمة في هذا الشأن.",
-        
+        //Banking and Finance
+        BankingFinance:"الخدمات المصرفية والمالية",
+        BankingFinanceB:"تعد المؤسسات المصرفية والمالية في الدولة من أهم ركائز الاقتصاد الوطني. ولذلك فهم مهتمون للغاية بالاقتصاد. وقد أدرك مكتب صالح الصالح للمحاماة والاستشارات القانونية هذه الأهمية وعمل على تمثيل العديد من المؤسسات المصرفية واهتم بعمل هذه المؤسسات.",
         // body
         Saleh_Al_Saleh: "صالح ال صالح للمحاماة و الاستشارات القانونية",
         body_index:"مكتب صالح الصالح للمحاماة والاستشارات القانونية هو واحد من أبرز مقدمي الخدمات القانونية في الإمارات العربية المتحدة من خلال الخبرة القانونية والطرق المهنية، مضمونًا رضى العملاء من المشاكل القانونية التي تواجهها. يتعامل المكتب في جميع أنواع القضايا المدنية والتجارية والجنائية ويقدم خدمات قانونية في مختلف المجالات وعلى جميع المستويات.",
