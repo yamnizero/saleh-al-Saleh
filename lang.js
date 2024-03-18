@@ -169,7 +169,10 @@ const translations = {
         //Trading companies
         TradingCompanies:"Trading companies",
         TradingCompaniesB:"Al Saleh Al Saleh Lawyers and Legal Consultants Team is experienced and continuously following up on all laws that determine the shape of the company and the procedures for establishing each of them. Our lawyers and advisors can provide advice and guidance to all investors .",
-
+        //Litigation and Dispute Resolution
+        LitigationResolution:"Litigation and Dispute Resolution",
+        LitigationResolutionB:"Litigation is the most widely used means of dispute resolution in the United Arab Emirates and Saleh Al Saleh Law Firm and Legal Consulting has an unprecedented team of trusted citizen lawyers supported by a number of legal advisers with knowledge and expertise in many legal aspects.",
+        LitigationResolutionB1:"Saleh Al Saleh Advocates and Legal Consultants has a team with unprecedented trust from citizen lawyers supported by a number of legal advisers with knowledge and expertise in many legal aspects: civil, commercial, criminal, labour and corporate disputes. our team represents all clients before various courts, whether in the courts of Primary / Appeal / Cassation in the Seven Emirates.",
         
         
         // body
@@ -359,7 +362,10 @@ const translations = {
         //Trading companies
         TradingCompanies:"الشركات التجارية",
         TradingCompaniesB:" يتمتع فريق مكتب الصالح للمحاماة والاستشارات القانونية بالخبرة والمتابعة المستمرة لجميع القوانين التي تحدد شكل الشركة وإجراءات تأسيس كل منها. يمكن لمحامينا ومستشارينا تقديم المشورة والتوجيه لجميع المستثمرين.",
-        
+        //Litigation and Dispute Resolution
+        LitigationResolution:"التقاضي وحل النزاعات",
+        LitigationResolutionB:"التقاضي هو الوسيلة الأكثر استخدامًا لتسوية المنازعات في دولة الإمارات العربية المتحدة، ولدى مكتب صالح آل صالح للمحاماة والاستشارات القانونية فريق غير مسبوق من المحامين المواطنين الموثوق بهم يدعمهم عدد من المستشارين القانونيين ذوي المعرفة والخبرة في العديد من الجوانب القانونية.",
+        LitigationResolutionB1:"لدى صالح آل صالح للمحاماة والاستشارات القانونية فريق يتمتع بثقة غير مسبوقة من المحامين المواطنين يدعمه عدد من المستشارين القانونيين ذوي المعرفة والخبرة في العديد من الجوانب القانونية: المنازعات المدنية والتجارية والجنائية والعمالية والشركات. يقوم فريقنا بتمثيل جميع العملاء أمام مختلف المحاكم سواء في المحاكم الابتدائية / الاستئناف / النقض في الإمارات السبع.",
         
         
         
