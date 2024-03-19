@@ -6585,6 +6585,7 @@ img.services-image{
     width: 1em;
     height: 1em;
     fill: currentColor;
+    color: rgb(194, 178, 89);
 }
 .alt-features-title{
     margin-bottom: 11px;
