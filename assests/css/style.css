@@ -3273,7 +3273,8 @@ html:not(.mobile) .wow-p{
 	}
 }
 .fadeIn {
-	animation-name: fadeIn
+	animation-name: fadeIn;
+    width: 200px;
 }
 
 @keyframes fadeInDown{
