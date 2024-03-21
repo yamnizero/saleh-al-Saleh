@@ -457,4 +457,8 @@ const setLanguage = (language) => {
         element.textContent = translations[language][translationsKey];
     });
     // document.dir = language == "ar" ? "rtl" : "ltr";
+    const ifrab = document.getElementById("ifarb");
+    if(language == 'ar') {
+    ifrab.setAttribute("dir","rtl");
+    } 
 };
