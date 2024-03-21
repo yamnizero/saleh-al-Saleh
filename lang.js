@@ -456,5 +456,5 @@ const setLanguage = (language) => {
         const translationsKey = element.getAttribute("data-i18n");
         element.textContent = translations[language][translationsKey];
     });
-    document.dir = language == "ar" ? "rtl" : "ltr";
+    // document.dir = language == "ar" ? "rtl" : "ltr";
 };
