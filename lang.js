@@ -3,6 +3,7 @@ const translations = {
         //header
         home: 'Home',
         service: 'Service',
+        serviceUs:'Our Service',
         about: 'About US',
         contact: 'Contact Us',
         FreeLegalAdvice: 'Free Legal Advice',
@@ -12,8 +13,15 @@ const translations = {
         //Contact Us
         CallUs: "Call Us",
         address:"Address",
+        Name:"Name",
+        Send:"Send Message",
+        enterName:"Enter your name",
+        enterEmail:"Enter your email",
+        enterMessage:"Enter your message",
+        Message: "Message",
         Email:"Email",
-        
+        Location:"Location",
+        address1:"UAE-Dubai,Deira,Al khabaisi,Behind NISSAN Showrooms,Business Point Building,Office No.403",
 
         // Service
         LegalConsultations: "Legal Consultations",
@@ -213,7 +221,9 @@ const translations = {
         OurServicesB: "We provide a wide range of legal services tailored to meet our clients needs.",
         OurServicesO: "Our goal is to provide reliable and effective legal support, empowering clients to navigate complex legal matters confidently.",
 
-
+        Company:"Company",
+        SocialMedia:"Social Media",
+      
         visiontolife: "Reach out and let's bring your vision to life.",
         english: 'English',
         arabic: 'عربي',
@@ -221,10 +231,14 @@ const translations = {
     },
 
     ar: {
-
+        Company:"عن الشركة",
+        SocialMedia:"التواصل الاجتماعي",
+        
+      
         //header
         home: "الصفحة الرئيسية",
         service: 'خدماتنا',
+        serviceUs:'خدماتنا',
         about: 'من نحن',
         contact: 'تواصل معنا',
         FreeLegalAdvice: 'استشارة مجانا',
@@ -234,7 +248,15 @@ const translations = {
         //Contact Us
         CallUs: "اتصل بنا",
         address:"العنوان",
+        enterName:"الرجاء ادخال الاسم",
+        enterEmail: "الرجاء ادخال الايميل",
+        enterMessage: "الرجاء ادخال نص",
+        Name:"الاسم",
+        Message: "رسالة",
+        Send:"ارسال الرسالة",
         Email:"الايميل",
+        Location:"الموقع",
+        address1:"الإمارات العربية المتحدة - دبي، ديرة،الخبيصي،بورت سعيد، خلف معارض نيسان، مبنى بزنزبوينت، مكتب رقم 403.",
         // Service
         LegalConsultations: "الاستشارات القانونية",
         legalDocuments: "إعداد وصياغة الوثائق القانونية",
@@ -460,5 +482,7 @@ const setLanguage = (language) => {
     const ifrab = document.getElementById("ifarb");
     if(language == 'ar') {
     ifrab.setAttribute("dir","rtl");
-    } 
+    } else{
+        ifrab.setAttribute("dir","ltr");
+    }
 };

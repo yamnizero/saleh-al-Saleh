@@ -441,3 +441,6 @@ a.blog-item-more{
         font-size: calc(1.635rem + 0.57vw);
     }    
 }
+.bgg{
+    background-color: lightblue;
+}

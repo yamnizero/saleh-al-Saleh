@@ -119,10 +119,10 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
 
                                 </li>
 
-                                <li class="mn-sub-multi">
+                                <!-- <li class="mn-sub-multi"> -->
 
 
-                                    <ul>
+                                    <!-- <ul>
                                         <li>
                                             <a href="research-services.html" data-i18n="ResearchServices">Research
                                                 services</a>
@@ -150,14 +150,14 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
                                         <li>
                                             <a href="insurance.html" data-i18n="Insurance">Insurance</a>
                                         </li>
-                                    </ul>
+                                    </ul> -->
 
-                                </li>
+                                <!-- </li> -->
 
-                                <li class="mn-sub-multi">
+                                <!-- <li class="mn-sub-multi"> -->
                                     <!-- <span class="mn-group-title">Group 3</span> -->
 
-                                    <ul>
+                                    <!-- <ul>
                                         <li>
                                             <a href="maritime-disputes.html" data-i18n="MaritimeDisputes">Maritime
                                                 disputes</a>
@@ -191,9 +191,9 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
                                             <a href="debt-collection.html" data-i18n="DebtCollection">Debt
                                                 Collection</a>
                                         </li>
-                                    </ul>
+                                    </ul> -->
 
-                                </li>
+                                <!-- </li> -->
 
                             </ul>
                             <!-- End Sub Megamenu -->
@@ -300,7 +300,8 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
                         </li>
                         <!-- End Languages -->
 
-                        <li><a href="https://wa.link/uaajb8" target="_blank" class="opacity-1 no-hover"><span
+                        <li><a href="https://wa.link/uaajb8" target="_blank" class="opacity-1 no-hover"><span 
+                            data-i18n="FreeLegalAdvice"
                                     class="link-hover-anim underline" data-link-animate="y">
                                     Free Legal
                                     Advice
@@ -341,7 +342,7 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
 
                                     </h1>
 
-                                    <p class="section-descr mb-50 wow fadeInUp" data-wow-delay="0.6s"
+                                    <p  class="section-descr mb-50 wow fadeInUp" data-wow-delay="0.6s"
                                         data-i18n="body_index" data-wow-duration="1.2s">
                                         is one of the most prominent legal services providers in the UAE through legal
                                         expertise and in professional ways, ensuring transactional satisfaction from any
@@ -352,8 +353,8 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
 
                                     <div class="local-scroll mt-n10 wow fadeInUp wch-unset" data-wow-delay="0.7s"
                                         data-wow-duration="1.2s" data-wow-offset="0">
-                                        <a href="contact-us.html" class="btn  golden-button"><span>Discover
-                                                now</span></a>
+                                        <a href="contact-us.html" class="btn  golden-button" data-i18n="serviceUs"><span>
+                                            Discover now</span></a>
 
                                     </div>
 
@@ -812,8 +813,8 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
                                                     d="M12 10c-1.104 0-2-.896-2-2s.896-2 2-2 2 .896 2 2-.896 2-2 2m0-5c-1.657 0-3 1.343-3 3s1.343 3 3 3 3-1.343 3-3-1.343-3-3-3m-7 2.602c0-3.517 3.271-6.602 7-6.602s7 3.085 7 6.602c0 3.455-2.563 7.543-7 14.527-4.489-7.073-7-11.072-7-14.527m7-7.602c-4.198 0-8 3.403-8 7.602 0 4.198 3.469 9.21 8 16.398 4.531-7.188 8-12.2 8-16.398 0-4.199-3.801-7.602-8-7.602" />
                                             </svg>
                                         </div>
-                                        <h4 class="alt-features-title">Location</h4>
-                                        <div class="alt-features-descr">
+                                        <h4 class="alt-features-title" data-i18n="Location">Location</h4>
+                                        <div class="alt-features-descr" data-i18n="address1">
                                             UAE-Dubai,Deira,Al khabaisi,Behind NISSAN Showrooms,Business Point Building,
                                             Office No.403
                                         </div>
@@ -834,14 +835,14 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
                             <!-- Contact Form -->
                             <form class="form contact-form pe-lg-5" id="contact_form">
 
-                                <div class="row">
+                                <div class="row" id="ifarb">
                                     <div class="col-lg-6">
 
                                         <!-- Name -->
-                                        <div class="form-group">
-                                            <label for="name">Name</label>
-                                            <input type="text" name="name" id="name" class="input-lg round form-control"
-                                                placeholder="Enter your name" pattern=".{3,100}" required
+                                        <div class="form-group"  >
+                                            <label  data-i18n="Name"  for="name">Name</label>
+                                            <input  type="text" name="name" id="name" class="input-lg round form-control" data-i18n="enterName"
+                                                pattern=".{3,100}" required
                                                 aria-required="true">
                                         </div>
                                     </div>
@@ -849,10 +850,10 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
                                     <div class="col-lg-6">
 
                                         <!-- Email -->
-                                        <div class="form-group">
-                                            <label for="email">Email</label>
+                                        <div class="form-group"  >
+                                            <label for="email" data-i18n="Email">Email</label>
                                             <input type="email" name="email" id="email"
-                                                class="input-lg round form-control" placeholder="Enter your email"
+                                                class="input-lg round form-control" 
                                                 pattern=".{5,100}" required aria-required="true">
                                         </div>
 
@@ -860,21 +861,21 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
                                 </div>
 
                                 <!-- Message -->
-                                <div class="form-group">
-                                    <label for="message">Message</label>
+                                <div class="form-group" >
+                                    <label data-i18n="Message"  for="message">Message</label>
                                     <textarea name="message" id="message" class="input-lg round form-control"
-                                        style="height: 130px;" placeholder="Enter your message"></textarea>
+                                        style="height: 130px;" data-i18n="enterMessage"></textarea>
                                 </div>
 
                                 <div class="row">
                                     <div class="col-lg-5">
 
                                         <!-- Send Button -->
-                                        <div class="pt-20">
+                                        <div class="pt-20" >
                                             <button
                                                 class="submit_btn btn btn-mod btn-w btn-large btn-round btn-hover-anim"
                                                 id="submit_btn" aria-controls="result">
-                                                <span>Send Message</span>
+                                                <span data-i18n="Send" >Send Message</span>
                                             </button>
                                         </div>
 
@@ -885,8 +886,7 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
                                         <!-- Inform Tip -->
                                         <div class="form-tip pt-20 pt-sm-0 mt-sm-20">
                                             <i class="icon-info size-16"></i>
-                                            All the fields are required. By sending the form you agree to the <a
-                                                href="#">Terms & Conditions</a> and <a href="#">Privacy Policy</a>.
+                                            All the fields are required. By sending the form you agree to the <a href="#">Terms & Conditions</a> and <a href="#">Privacy Policy</a>.
                                         </div>
 
                                     </div>
@@ -949,7 +949,7 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
                             <!-- Footer Widget -->
                             <div class="col-sm-4 mt-30">
 
-                                <h3 class="fw-title">Company</h3>
+                                <h3 class="fw-title" data-i18n="Company">Company</h3>
 
                                 <ul class="fw-menu clearlist">
                                     <li><a href="#" data-i18n="about">About</a></li>
@@ -964,7 +964,7 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
                             <!-- Footer Widget -->
                             <div class="col-sm-4 mt-30">
 
-                                <h3 class="fw-title">Social Media</h3>
+                                <h3 class="fw-title" data-i18n="SocialMedia">Social Media</h3>
 
                                 <ul class="fw-menu clearlist">
                                     <li>
