@@ -8,7 +8,7 @@ const translations = {
         FreeLegalAdvice: 'Free Legal Advice',
 
         //about us
-        aboutUsB: "Saleh Al Saleh Law Firm and Legal Consulting provide a wide range of legal services through legal expertise and in professional ways, ensuring transactional satisfaction from any legal problems facing our valued clients. The Office deals in all kinds of civil, commercial and criminal cases and provides legal services in various fields and at all levels. Advocate\ Saleh Al Saleh is one of the distinguished lawyers in the UAE and has more than 21 years of experience in the field of law. The office has a good reputation. Advocate\ Saleh Al Saleh is interested in appointing the best lawyers and advisors with experience in the field of law for many years.",
+        aboutUsB: "Saleh Al Saleh Advocates & Legal Consultants provide a wide range of legal services through legal expertise and in professional ways, ensuring transactional satisfaction from any legal problems facing our valued clients. The Office deals in all kinds of civil, commercial and criminal cases and provides legal services in various fields and at all levels. Advocate\ Saleh Al Saleh is one of the distinguished lawyers in the UAE and has more than 21 years of experience in the field of law. The office has a good reputation. Advocate\ Saleh Al Saleh is interested in appointing the best lawyers and advisors with experience in the field of law for many years.",
         //Contact Us
         CallUs: "Call Us",
         address:"Address",
