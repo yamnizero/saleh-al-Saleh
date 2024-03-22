@@ -12480,6 +12480,14 @@ html:not(.mobile) .owl-animate-fadeInDown{
     color: #D5BD4E;
   }
 
+  .hs-title-service{
+    margin-top: 0;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.085;
+    letter-spacing: -0.035em;
+}
+
  
   
 
