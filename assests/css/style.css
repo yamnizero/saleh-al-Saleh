@@ -5454,6 +5454,7 @@ a.logo:hover{
 section .scrollZaid{
     width: 100%;
     display: flex;
+    z-index: -10;
 }
 section .scrollZaid div{
     color: #000;
