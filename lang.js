@@ -227,6 +227,7 @@ const translations = {
         visiontolife: "Reach out and let's bring your vision to life.",
         english: 'English',
         arabic: 'عربي',
+        language2: 'Language',
 
     },
 
@@ -458,6 +459,7 @@ const translations = {
         visiontolife: "تواصل معنا ودعنا نحقق رؤيتك على أرض الواقع.",
         english: 'English',
         arabic: 'عربي',
+        language2: 'اللغة',
     },
 };
 
