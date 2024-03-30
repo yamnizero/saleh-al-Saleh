@@ -10,6 +10,11 @@ $conn = mysqli_connect(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_DATABASE);
 if (!$conn) {
    echo "<h3 class=container bg-dark text-center p-3 text-warning rounded-lg mt-5>Not able establish database Connection</h3>";
 }
+
+$sql ="SELECT * FROM blog";
+$query= mysqli_query($conn,$sql);
+
+
 $image_uploaded = 0;
 if (isset($_POST["new_post"])) {
  
@@ -40,6 +45,8 @@ if (isset($_POST["new_post"])) {
 
    $sql = "INSERT INTO blog(image,title,sub) VALUES('$image', '$title', '$sub')";
    mysqli_query($conn,$sql);
+   header("location:blog.php");
+   exit();
 }
 
 ?>

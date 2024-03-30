@@ -344,9 +344,61 @@
                             </div>
                         </div>
 
+                        
+
                 </div>
                   
             </section>
+
+            
+                <!-- Blog Section -->
+                <section class="page-section bg-dark-1 light-content ">
+                    <div class="container">
+                        
+                        <!-- Blog Grid --> 
+                        <div class="row mt-n50 mt-sm-n30 mb-50 mb-sm-30 wow fadeInUp" data-wow-offset="0">
+                            
+                            <!-- Post Item -->
+                            <?php foreach($query as $q){?>
+                                <div class="post-prev-2 col-md-6 col-lg-4 mt-50 mt-sm-30">
+                                
+                                <div class="post-prev-2-img">
+                                    <a href="strong-blog-single-dark.html"><img src="<?= "uploads/".$q['image']?>" alt="Image Description" /></a>
+                                </div>
+                                
+                                <h5 class="post-prev-2-title golden-title"><a href="#"><?= $q['title']?></a></h5>
+                                <p ><?= $q['sub']?></p>
+                                
+                                <div class="post-prev-2-info">
+                                <?= $q['created']?>
+                                </div>
+                                    
+                            </div>
+
+                            <?php }?>
+                            <!-- End Post Item -->   
+                            
+                           
+                            
+                           
+                        </div>
+                        <!-- End Blog Grid -->
+                        
+                        <!-- Pagination -->
+                        <div class="pagination justify-content-center">
+                            <a href="#"><i class="mi-chevron-left"></i><span class="visually-hidden">Previous page</span></a>
+                            <a href="#" class="active">1</a>
+                            <a href="#">2</a>
+                            <a href="#">3</a>
+                            <span class="no-active">...</span>
+                            <a href="#">9</a>
+                            <a href="#"><i class="mi-chevron-right"></i><span class="visually-hidden">Next page</span></a>
+                        </div>
+                        <!-- End Pagination -->
+                        
+                    </div>
+                </section>
+                <!-- End Blog Section -->
             <!-- End About Section -->
               <!-- Marquee Text Line -->
               <div class="marquee marquee-style-1 bg-dark-2">
