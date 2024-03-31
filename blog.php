@@ -71,8 +71,7 @@
             <!-- End Home Section -->
 
 
-            <!-- About Section -->
-            <section class="page-section bg-dark-1 light-content pb-0" id="about">
+            <!-- <section class="page-section bg-dark-1 light-content pb-0" id="about">
                 <div class="container">
 
                         <div class="container mt-5" >
@@ -85,7 +84,7 @@
 
                 </div>
                   
-            </section>
+            </section> -->
 
             
                 <!-- Blog Section -->
