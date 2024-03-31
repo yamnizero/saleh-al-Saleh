@@ -301,11 +301,10 @@
                         </li>
                         <!-- End Languages -->
 
-                        <li><a href="https://wa.link/uaajb8" target="_blank" class="opacity-1 no-hover"><span 
+                        <li><a href="admin/index.php" target="_blank" class="opacity-1 no-hover"><span 
                             data-i18n="FreeLegalAdvice"
                                     class="link-hover-anim underline" data-link-animate="y">
-                                    Free Legal
-                                    Advice
+                                    Setting Blog
                                 </span></a></li>
 
                     </ul>
@@ -518,6 +517,10 @@
                         <i class="fa-google"></i>
                     </a>
                     <a href="https://www.linkedin.com/in/saleh-al-saleh-advocates-and-legal-consutants-4682a0225" title="LinkedIn" rel="noopener nofollow" target="_blank">
+                        <span class="visually-hidden">LinkedIn</span>
+                        <i class="fa-linkedin"></i>
+                     </a>
+                     <a href="admin/admin/lo" title="LinkedIn" rel="noopener nofollow" target="_blank">
                         <span class="visually-hidden">LinkedIn</span>
                         <i class="fa-linkedin"></i>
                      </a>
