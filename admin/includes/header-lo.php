@@ -1,6 +1,6 @@
 <?php
 require 'config/function.php';
-//  include('authentication.php');
+// include('authentication.php');
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -27,10 +27,10 @@ require 'config/function.php';
 
 <body class="g-sidenav-show  bg-gray-100">
 
-    <?php include('sidebar.php') ?>
+    
 
     <main class="main-content position-relative max-height-vh-100 h-100 mt-1 border-radius-lg ">
 
-        <?php include('navbar.php') ?>
+       
 
             <div class="container-fluid py-4">

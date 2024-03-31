@@ -301,8 +301,8 @@
                         </li>
                         <!-- End Languages -->
 
-                        <li><a href="admin/index.php" target="_blank" class="opacity-1 no-hover"><span 
-                            data-i18n="FreeLegalAdvice"
+                        <li><a href="admin/login.php" target="_blank" class="opacity-1 no-hover"><span 
+                            
                                     class="link-hover-anim underline" data-link-animate="y">
                                     Setting Blog
                                 </span></a></li>
@@ -383,8 +383,11 @@
                         </div>
                         <!-- End Blog Grid -->
                         
-                        <!-- Pagination -->
-                        <div class="pagination justify-content-center">
+                        
+                        
+                    </div>
+                    <!-- Pagination -->
+                    <!-- <div class="pagination justify-content-center">
                             <a href="#"><i class="mi-chevron-left"></i><span class="visually-hidden">Previous page</span></a>
                             <a href="#" class="active">1</a>
                             <a href="#">2</a>
@@ -392,10 +395,8 @@
                             <span class="no-active">...</span>
                             <a href="#">9</a>
                             <a href="#"><i class="mi-chevron-right"></i><span class="visually-hidden">Next page</span></a>
-                        </div>
+                        </div> -->
                         <!-- End Pagination -->
-                        
-                    </div>
                 </section>
                 <!-- End Blog Section -->
             <!-- End About Section -->

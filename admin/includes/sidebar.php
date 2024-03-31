@@ -17,7 +17,7 @@
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link  " href="pages/tables.html">
+          <a class="nav-link  " href="blog-create.php">
             <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center me-2 d-flex align-items-center justify-content-center">
             <i class="fa fa-user-plus text-white text-lg"></i>
             </div>
@@ -38,6 +38,8 @@
     </div>
     <div class="sidenav-footer mx-3 ">
      
-      <a class="btn bg-gradient-primary mt-3 w-100" href="https://www.creative-tim.com/product/soft-ui-dashboard-pro?ref=sidebarfree">Upgrade to pro</a>
+    <a class="btn bg-gradient-primary mt-4 w-100" href="logout.php">
+        Logout
+      </a>
     </div>
   </aside>

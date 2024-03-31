@@ -49,13 +49,7 @@ include('includes/header.php')
                                 </select>
                             </div>
                         </div>
-                        <div class="col-md-3">
-                            <div class="mb-3">
-                                <label>Is Ban</label>
-                                <br>
-                                <input type="checkbox" name="is_ban" style="width:30px;height:30px;" class="form-control">
-                            </div>
-                        </div>
+                       
                         <div class="col-md-6">
                             <div class="mb-3 text-end">
                                 <button type="submit" name="saveUser" class="btn btn-primary">Save</button>
