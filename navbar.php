@@ -201,12 +201,17 @@
 
                         </li>
                         <!-- End Languages -->
-
-                        <li><a href="admin/login.php" target="_blank" class="opacity-1 no-hover"><span 
+                        <li><a href="https://wa.link/uaajb8" target="_blank" class="opacity-1 no-hover"><span 
+                            data-i18n="FreeLegalAdvice"
+                                    class="link-hover-anim underline" data-link-animate="y">
+                                    Free Legal
+                                    Advice
+                                </span></a></li>
+                        <!-- <li><a href="admin/login.php" target="_blank" class="opacity-1 no-hover"><span 
                             
                                     class="link-hover-anim underline" data-link-animate="y">
                                     Setting Blog
-                                </span></a></li>
+                                </span></a></li> -->
 
                     </ul>
 
