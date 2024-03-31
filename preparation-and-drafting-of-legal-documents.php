@@ -91,12 +91,13 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
 
 
 
-                    <div class="row">
-                        <div class="col-md-8 offset-md-2" id="ifarb">
+                    <div class="row" >
+                        <div class="col-md-8 offset-md-2" id="ifarb" >
 
                             <hr class="mb-30 white" />
 
-                            <h4 data-i18n="Saleh_Al_Saleh_Legal_Consultations" class="mb-20">Saleh Al Saleh Advocates and Legal Consultants:</h4>
+                            <h4 class="mb-20"   data-i18n="Saleh_Al_Saleh_Legal_Consultations">
+                                Saleh Al Saleh Advocates and Legal Consultants</h4>
                             <p data-i18n="Preparation_legal_documentsB">
                                 is the most famous office in the preparation and legal drafting in the UAE where we have
                                 a specialized team of legal advisers and researchers with expertise in the preparation
