@@ -172,59 +172,12 @@
                         </li>
                         <!-- Item With Sub -->
                         <li>
-                            <a href="#" class="mn-has-sub">Blog <i class="mi-chevron-down"></i></a>
+                            <a href="blog.php" class="">Blog </a>
 
                             <!-- Sub -->
                             <ul class="mn-sub">
 
-                                <li>
-                                    <a href="#" class="mn-has-sub">Classic <i class="mi-chevron-right right"></i></a>
-
-                                    <ul class="mn-sub">
-                                        <li>
-                                            <a href="main-blog-classic-sidebar-left-dark.php">Sidebar Left</a>
-                                        </li>
-                                        <li>
-                                            <a href="main-blog-classic-sidebar-right-dark.php">Sidebar Right</a>
-                                        </li>
-                                        <li>
-                                            <a href="main-blog-classic-fullwidth-dark.php">Fullwidth</a>
-                                        </li>
-                                    </ul>
-
-                                </li>
-
-                                <li>
-                                    <a href="#" class="mn-has-sub">Columns <i class="mi-chevron-right right"></i></a>
-
-                                    <ul class="mn-sub">
-                                        <li>
-                                            <a href="main-blog-columns-2col-dark.php">2 Columns</a>
-                                        </li>
-                                        <li>
-                                            <a href="main-blog-columns-3col-dark.php">3 Columns</a>
-                                        </li>
-                                    </ul>
-
-                                </li>
-
-                                <li>
-                                    <a href="#" class="mn-has-sub">Single <i class="mi-chevron-right right"></i></a>
-
-                                    <ul class="mn-sub">
-                                        <li>
-                                            <a href="main-blog-single-sidebar-left-dark.php">Sidebar Left</a>
-                                        </li>
-                                        <li>
-                                            <a href="main-blog-single-sidebar-right-dark.php">Sidebar Right</a>
-                                        </li>
-                                        <li>
-                                            <a href="main-blog-single-fullwidth-dark.php">Fullwidth</a>
-                                        </li>
-                                    </ul>
-
-                                </li>
-
+                               
                             </ul>
                             <!-- End Sub -->
 
