@@ -1,18 +1,19 @@
 <?php
 
-// define('DB_SERVER',"localhost");
-// define('DB_USERNAME',"root");
-// define('DB_PASSWORD',"");
-// define('DB_DATABASE',"saleh_al_saleh");
+define('DB_SERVER',"localhost");
+define('DB_USERNAME',"root");
+define('DB_PASSWORD',"");
+define('DB_DATABASE',"saleh_al_saleh");
 
-// $conn = mysqli_connect(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_DATABASE);
+
+$conn = mysqli_connect(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_DATABASE);
 
 if (!$conn) {
    echo "<h3 class=container bg-dark text-center p-3 text-warning rounded-lg mt-5>Not able establish database Connection</h3>";
 }
 
-$sql ="SELECT * FROM blog";
-$query= mysqli_query($conn,$sql);
+
+
 
 
 $image_uploaded = 0;
@@ -20,7 +21,10 @@ if (isset($_POST["new_post"])) {
  
    $title=$_POST["title"];
    $sub=$_POST["sub"];
-   
+   $author=$_POST["author"];
+   $category=$_POST["category"];
+     
+
    $image =time().$_FILES["image"]['name'];
    
       $target_dir = "../admin/uploads/";
@@ -49,9 +53,16 @@ if (isset($_POST["new_post"])) {
    
    
  
-   $sql = "INSERT INTO blog(image,title,sub) VALUES('$imageName', '$title', '$sub')";
-   mysqli_query($conn,$sql);
-   header("location:index.php");
+   $sql = "INSERT INTO blog(image,title,sub,author,category) VALUES('$imageName', '$title', '$sub' ,'$author','$category')";
+   if (mysqli_query($conn, $sql)) {
+      echo "New record created successfully";
+      header("location:index.php");
+    } else {
+      echo "Error: " . $sql . "<br>" . mysqli_error($conn);
+    }
+ 
+   //mysqli_query($conn,$sql);
+  
    exit();
 }
 

@@ -1,6 +1,16 @@
 <?php
 include('includes/header.php');
-include "code-blog.php"
+//include "code-blog.php"
+
+
+
+$conn = mysqli_connect(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_DATABASE);
+
+if (!$conn) {
+   echo "<h3 class=container bg-dark text-center p-3 text-warning rounded-lg mt-5>Not able establish database Connection</h3>";
+}
+$sql ="SELECT * FROM blog";
+$query= mysqli_query($conn,$sql);
 ?>
 
 

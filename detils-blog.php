@@ -231,19 +231,17 @@ if (isset($_GET['id'])) {
                                 <!-- Author, Categories, Comments -->
                                 <div class="blog-item-data mt-30 mt-sm-10 mb-0 wow fadeInUp" data-wow-delay="0.2s">
                                     <div class="d-inline-block me-3">
-                                        <a href="#"><i class="mi-clock size-16"></i><span class="visually-hidden">Date:</span> December 25</a>
+                                        <a href="#"><i class="mi-clock size-16"></i><span class="visually-hidden">Date:</span> <?= $blogID['created'] ?></a>
                                     </div>
                                     <div class="d-inline-block me-3">
-                                        <a href="#"><i class="mi-user size-16"></i><span class="visually-hidden">Author:</span> John Doe</a>
+                                        <a href="#"><i class="mi-user size-16"></i><span class="visually-hidden">Author:</span> <?= $blogID['author'] ?></a>
                                     </div>
                                     <div class="d-inline-block me-3">
                                         <i class="mi-folder size-16"></i>
                                         <span class="visually-hidden">Categories:</span>
-                                        <a href="#">Design</a>, <a href="#">Branding</a>
+                                        <a href="#"><?= $blogID['category'] ?></a>, 
                                     </div>
-                                    <div class="d-inline-block me-3">
-                                        <a href="#"><i class="mi-message size-16"></i> 5 Comments</a>
-                                    </div>
+                                    
                                 </div>
                                 <!-- End Author, Categories, Comments -->
                            

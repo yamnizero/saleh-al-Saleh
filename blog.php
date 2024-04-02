@@ -312,9 +312,9 @@ include "logic.php"
                             <h3 class="section-title mb-0"><span class="wow charsAnimIn" data-splitting="chars">The latest news</span></h3>
                         </div>
 
-                        <div class="col-md-5 offset-md-1 text-start text-md-end pt-40 pt-sm-20">
+                        <!-- <div class="col-md-5 offset-md-1 text-start text-md-end pt-40 pt-sm-20">
                             <a href="main-blog-columns-2col-dark.html" class="link-hover-anim underline align-middle" data-link-animate="y"> Read more in our blog <i class="mi-arrow-right size-18"></i></a>
-                        </div>
+                        </div> -->
 
                     </div>
 
@@ -343,7 +343,8 @@ include "logic.php"
                                     
                                     <div class="post-prev-info clearfix">
                                         <div class="float-start">
-                                            <a href="#"><img class="post-prev-author-img" width="30" height="30" src="images/blog/author/author-3.jpg" alt="Image Description" /></a><a href="#">Thomas Johnson</a>
+                                            <a href="#">
+                                                </a><a href="#"><?= $q['author'] ?></a>
                                         </div>
                                         <div class="float-end"><a href="#"> <?= $q['created'] ?></a></div>
                                     </div>
