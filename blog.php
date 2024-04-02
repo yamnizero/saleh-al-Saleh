@@ -335,7 +335,7 @@ include "logic.php"
                                     
                                     <h4 class="post-prev-title golden-title"><a href="#"><?= $q['title'] ?></a></h4>
                                         
-                                    <div class="post-prev-text" style=" max-lines: 3; overflow: hidden;">
+                                    <div class="post-prev-text" >
                                     <?= $q['sub'] ?>    
                                     </div>
                                     
