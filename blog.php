@@ -1,5 +1,5 @@
 <?php
-    include "logic.php"
+include "logic.php"
 ?>
 
 <html lang="en">
@@ -14,12 +14,12 @@
 
     <!-- Favicon -->
     <link rel="icon" href="assests/images/Logo.gif" type="image/png" sizes="any">
-        <link rel="icon" href="assests/images/Logo.gif" type="image/svg+xml">
+    <link rel="icon" href="assests/images/Logo.gif" type="image/svg+xml">
 
     <!-- CSS -->
     <link rel="stylesheet" href="assests/css/bootstrap.min.css">
     <link rel="stylesheet" href="assests/css/style.css">
-    
+
     <link rel="stylesheet" href="assests/css/style-responsive.css">
     <link rel="stylesheet" href="assests/css/vertical-rhythm.min.css">
     <link rel="stylesheet" href="assests/css/magnific-popup.css">
@@ -51,8 +51,8 @@
     <div class="page bg-dark-1" id="top">
 
         <!-- Navigation Panel -->
-         <!-- Navigation Panel -->
- <nav class="main-nav dark dark-mode transparent stick-fixed wow-menubar">
+        <!-- Navigation Panel -->
+        <nav class="main-nav dark dark-mode transparent stick-fixed wow-menubar">
             <div class="main-nav-sub full-wrapper">
 
                 <!-- Logo  (* Add your text or image to the link tag. Use SVG or PNG image format. 
@@ -88,8 +88,7 @@
 
                         <!-- Item With Sub -->
                         <li>
-                            <a href="#" data-i18n="service" class="mn-has-sub">Service <i
-                                    class="mi-chevron-down"></i></a>
+                            <a href="#" data-i18n="service" class="mn-has-sub">Service <i class="mi-chevron-down"></i></a>
 
                             <!-- Sub Megamenu -->
                             <ul class="mn-sub mn-has-multi">
@@ -103,13 +102,11 @@
                                                 Consultations</a>
                                         </li>
                                         <li>
-                                            <a href="preparation-and-drafting-of-legal-documents.php"
-                                                data-i18n="legalDocuments">Preparation and drafting of legal
+                                            <a href="preparation-and-drafting-of-legal-documents.php" data-i18n="legalDocuments">Preparation and drafting of legal
                                                 documents</a>
                                         </li>
                                         <li>
-                                            <a href="legal-procedures-registration-and-legal-credits.php"
-                                                data-i18n="LegalProcedures">Legal procedures, registration and
+                                            <a href="legal-procedures-registration-and-legal-credits.php" data-i18n="LegalProcedures">Legal procedures, registration and
                                                 legal credits</a>
                                         </li>
                                         <li>
@@ -124,7 +121,7 @@
                                 <!-- <li class="mn-sub-multi"> -->
 
 
-                                    <!-- <ul>
+                                <!-- <ul>
                                         <li>
                                             <a href="research-services.php" data-i18n="ResearchServices">Research
                                                 services</a>
@@ -157,9 +154,9 @@
                                 <!-- </li> -->
 
                                 <!-- <li class="mn-sub-multi"> -->
-                                    <!-- <span class="mn-group-title">Group 3</span> -->
+                                <!-- <span class="mn-group-title">Group 3</span> -->
 
-                                    <!-- <ul>
+                                <!-- <ul>
                                         <li>
                                             <a href="maritime-disputes.php" data-i18n="MaritimeDisputes">Maritime
                                                 disputes</a>
@@ -230,7 +227,7 @@
                             <!-- Sub -->
                             <ul class="mn-sub">
 
-                               
+
                             </ul>
                             <!-- End Sub -->
 
@@ -260,9 +257,7 @@
                                     Free Legal
                                     Advice
                                 </span></a></li> -->
-                        <li><a href="admin/login.php" target="_blank" class="opacity-1 no-hover"><span 
-                            
-                                    class="link-hover-anim underline" data-link-animate="y">
+                        <li><a href="admin/login.php" target="_blank" class="opacity-1 no-hover"><span class="link-hover-anim underline" data-link-animate="y">
                                     Setting Blog
                                 </span></a></li>
 
@@ -270,22 +265,20 @@
 
                 </div>
                 <!-- End Main Menu -->
-                
+
             </div>
         </nav>
-        <!-- End Navigation Panel -->   
+        <!-- End Navigation Panel -->
         <!-- End Navigation Panel -->
 
         <main id="main">
 
             <!-- Home Section -->
-            <section class="page-section bg-dark-alpha-60 light-content parallax-5"
-                style="background-image: url(images/full-width-images/section-bg-13.jpg)" id="home">
+            <section class="page-section bg-dark-alpha-60 light-content parallax-5" style="background-image: url(images/full-width-images/section-bg-13.jpg)" id="home">
                 <div class="container position-relative pt-sm-40">
 
                     <div class="text-center">
-                        <h1 class="hs-title-4 font-alt mb-0 golden-title" ><span class="wow charsAnimInLong-1"
-                                data-splitting="chars">Blog</span></h1>
+                        <h1 class="hs-title-4 font-alt mb-0 golden-title"><span class="wow charsAnimInLong-1" data-splitting="chars">Blog</span></h1>
                     </div>
 
                 </div>
@@ -308,45 +301,66 @@
                   
             </section> -->
 
-            
-                <!-- Blog Section -->
-                <section class="page-section bg-dark-1 light-content ">
-                    <div class="container">
-                        
-                        <!-- Blog Grid --> 
-                        <div class="row mt-n50 mt-sm-n30 mb-50 mb-sm-30 wow fadeInUp" data-wow-offset="0">
+
+            <!-- Blog Section -->
+            <section class="page-section bg-dark-1 light-content ">
+                <div class="container">
+                    <div class="row mb-60 mb-xs-30">
+
+                        <div class="col-md-6">
+                            <h2 class="section-caption mb-xs-10">Our Blog</h2>
+                            <h3 class="section-title mb-0"><span class="wow charsAnimIn" data-splitting="chars">The latest news</span></h3>
+                        </div>
+
+                        <div class="col-md-5 offset-md-1 text-start text-md-end pt-40 pt-sm-20">
+                            <a href="main-blog-columns-2col-dark.html" class="link-hover-anim underline align-middle" data-link-animate="y"> Read more in our blog <i class="mi-arrow-right size-18"></i></a>
+                        </div>
+
+                    </div>
+
+
+                     <!-- Blog Posts Grid -->
+                     <div class="row mt-n50">
+                            
+                            
                             
                             <!-- Post Item -->
-                            <?php foreach($query as $q){?>
-                                <div class="post-prev-2 col-md-6 col-lg-4 mt-50 mt-sm-30">
+                            <?php foreach ($query as $q) { ?>
+                            <div class="post-prev col-md-6 col-lg-4 mt-50 wow fadeInLeft" data-wow-delay="0.3s">                                
+                                <div class="post-prev-container">
                                 
-                                <div class="post-prev-2-img">
-                                    <a href="#"><img src="<?= "admin/uploads/".$q['image']?>" alt="Image Description" /></a>
-                                </div>
-                                
-                                <h5 class="post-prev-2-title golden-title"><a href="#"><?= $q['title']?></a></h5>
-                                <p ><?= $q['sub']?></p>
-                                
-                                <div class="post-prev-2-info">
-                                <?= $q['created']?>
-                                </div>
+                                    <div class="post-prev-img">
+                                    <a href="#"><img src="<?= "admin/uploads/" . $q['image'] ?>" alt="Image Description" /></a>
+                                    </div>
                                     
+                                    <h4 class="post-prev-title golden-title"><a href="#"><?= $q['title'] ?></a></h4>
+                                        
+                                    <div class="post-prev-text" style=" max-lines: 3; overflow: hidden;">
+                                    <?= $q['sub'] ?>    
+                                    </div>
+                                    
+                                    <div class="post-prev-info clearfix">
+                                        <div class="float-start">
+                                            <a href="#"><img class="post-prev-author-img" width="30" height="30" src="images/blog/author/author-3.jpg" alt="Image Description" /></a><a href="#">Thomas Johnson</a>
+                                        </div>
+                                        <div class="float-end"><a href="#"> <?= $q['created'] ?></a></div>
+                                    </div>
+                                
+                                </div>                                
                             </div>
-
-                            <?php }?>
-                            <!-- End Post Item -->   
+                            <?php } ?>
+                            <!-- End Post Item -->                  
                             
-                           
-                            
-                           
                         </div>
-                        <!-- End Blog Grid -->
-                        
-                        
-                        
-                    </div>
-                    <!-- Pagination -->
-                    <!-- <div class="pagination justify-content-center">
+                        <!-- End Blog Posts Grid -->
+                    
+                                
+
+
+
+                </div>
+                <!-- Pagination -->
+                <!-- <div class="pagination justify-content-center">
                             <a href="#"><i class="mi-chevron-left"></i><span class="visually-hidden">Previous page</span></a>
                             <a href="#" class="active">1</a>
                             <a href="#">2</a>
@@ -355,32 +369,32 @@
                             <a href="#">9</a>
                             <a href="#"><i class="mi-chevron-right"></i><span class="visually-hidden">Next page</span></a>
                         </div> -->
-                        <!-- End Pagination -->
-                </section>
-                <!-- End Blog Section -->
+                <!-- End Pagination -->
+            </section>
+            <!-- End Blog Section -->
             <!-- End About Section -->
-              <!-- Marquee Text Line -->
-              <div class="marquee marquee-style-1 bg-dark-2">
+            <!-- Marquee Text Line -->
+            <div class="marquee marquee-style-1 bg-dark-2">
                 <div class="marquee-track marquee-animation">
                     <div>saleh-al-Saleh</div>
                     <div class="golden-title" aria-hidden="true">بناء الإنسان أفضل الاستثمارات فوق أرضنا، وهو الركيزة الأساسية لعملية التنمية</div>
-                    <div class="golden-title"   aria-hidden="true">إن أكبر استثمار للمال هو استثماره في بناء أجيال من المتعلّمين والمثقفين.</div>
-                    <div class="golden-title"  aria-hidden="true">إن الإزدهار الحقيقي للدولة هو شبابها.</div>
-                    <div class="golden-title"  aria-hidden="true">لقد تعلّمنا من هذا الازدهار أن نبني دولتنا من خلال التعليم والمعرفة وأن نرعى أجيالاً من الرجال والنساء المتعلمين</div>
-                    <div class="golden-title"  aria-hidden="true">بناء الإنسان أفضل الاستثمارات فوق أرضنا، وهو الركيزة الأساسية لعملية التنمية</div>
-                    <div class="golden-title"  aria-hidden="true">يجب التزود بالعلوم الحديثة والمعارف الواسعة والإقبال عليها بروح عالية، ورغبة صادقة على طرق مجالات العمل كافة، حتى تتمكّن دولة الإمارات خلال الألفية الثالثة من تحقيق نقلة حضارية واسعة.</div>
-                    <div class="golden-title"  aria-hidden="true">إن التعليم يمثل أولوية وطنية قصوى، كما أن الاستثمار في الإنسان هو الاستثمار الحقيقي الذي ننشده.</div>
-                    <div class="golden-title"  aria-hidden="true">إن الثروة الحقيقية والمكسب الفعلي للوطن يكمن في الشباب الذي يتسلّح بالعلم والمعرفة، باعتبارهما وسيلة ومنهجا يسعى من خلالهما إلى بناء الوطن، وتعزيز منعته، في كلّ موقع من مواقع العطاء والبناء.</div>
-                    <div class="golden-title"  aria-hidden="true">لا مكان في المستقبل لمن يفتقد العلم والمعرفة</div>
-                    <div class="golden-title"  aria-hidden="true">إن الوطن ينتظر منا الكثير والشعب يتطلع إلى أعمالنا</div>
-                    <div class="golden-title"  aria-hidden="true">علينا أن نكافح ونحرص على دفع مسيرة العمل في هذا الوطن والدفاع عنه بنفس الروح والشجاعة التي يتحلى بها أسلافنا</div>
-                    <div class="golden-title"  aria-hidden="true">إن رصيد أي أمة متقدمة هو أبناؤها المتعلمون وإن تقدم الشعوب والأمم إنما يقاس بمستوى التعليم وانتشاره</div>
-                    <div class="golden-title"  aria-hidden="true">إن رفع مستوى المواطن والدولة ككل فوق كل شيء، والدولة مثل الشجرة التي يجب أن تحظى بعناية مواطنيها وحرصهم على تنميتها، وكل مواطن عليه أن يحترم وطنه</div>
+                    <div class="golden-title" aria-hidden="true">إن أكبر استثمار للمال هو استثماره في بناء أجيال من المتعلّمين والمثقفين.</div>
+                    <div class="golden-title" aria-hidden="true">إن الإزدهار الحقيقي للدولة هو شبابها.</div>
+                    <div class="golden-title" aria-hidden="true">لقد تعلّمنا من هذا الازدهار أن نبني دولتنا من خلال التعليم والمعرفة وأن نرعى أجيالاً من الرجال والنساء المتعلمين</div>
+                    <div class="golden-title" aria-hidden="true">بناء الإنسان أفضل الاستثمارات فوق أرضنا، وهو الركيزة الأساسية لعملية التنمية</div>
+                    <div class="golden-title" aria-hidden="true">يجب التزود بالعلوم الحديثة والمعارف الواسعة والإقبال عليها بروح عالية، ورغبة صادقة على طرق مجالات العمل كافة، حتى تتمكّن دولة الإمارات خلال الألفية الثالثة من تحقيق نقلة حضارية واسعة.</div>
+                    <div class="golden-title" aria-hidden="true">إن التعليم يمثل أولوية وطنية قصوى، كما أن الاستثمار في الإنسان هو الاستثمار الحقيقي الذي ننشده.</div>
+                    <div class="golden-title" aria-hidden="true">إن الثروة الحقيقية والمكسب الفعلي للوطن يكمن في الشباب الذي يتسلّح بالعلم والمعرفة، باعتبارهما وسيلة ومنهجا يسعى من خلالهما إلى بناء الوطن، وتعزيز منعته، في كلّ موقع من مواقع العطاء والبناء.</div>
+                    <div class="golden-title" aria-hidden="true">لا مكان في المستقبل لمن يفتقد العلم والمعرفة</div>
+                    <div class="golden-title" aria-hidden="true">إن الوطن ينتظر منا الكثير والشعب يتطلع إلى أعمالنا</div>
+                    <div class="golden-title" aria-hidden="true">علينا أن نكافح ونحرص على دفع مسيرة العمل في هذا الوطن والدفاع عنه بنفس الروح والشجاعة التي يتحلى بها أسلافنا</div>
+                    <div class="golden-title" aria-hidden="true">إن رصيد أي أمة متقدمة هو أبناؤها المتعلمون وإن تقدم الشعوب والأمم إنما يقاس بمستوى التعليم وانتشاره</div>
+                    <div class="golden-title" aria-hidden="true">إن رفع مستوى المواطن والدولة ككل فوق كل شيء، والدولة مثل الشجرة التي يجب أن تحظى بعناية مواطنيها وحرصهم على تنميتها، وكل مواطن عليه أن يحترم وطنه</div>
 
                 </div>
             </div>
             <!-- End Marquee Text Line -->
-        <!-- Z -->  
+            <!-- Z -->
             <!-- <section >
                 <div class="scrollZaid text">
                     <div>
@@ -435,11 +449,11 @@
                     </div>
                 </div>
             </section> -->
-            
+
 
 
             <!-- Experience Section -->
-            
+
             <!-- End Experience Section -->
 
 
@@ -448,10 +462,10 @@
             <!-- End Divider -->
 
 
-        
 
 
-           
+
+
 
 
         </main>
@@ -459,9 +473,9 @@
         <!-- Footer -->
         <footer class="bg-dark-2 light-content footer z-index-1 position-relative">
             <div class="container position-relative text-center pt-140 pb-80 pb-sm-50">
-                
-               
-                
+
+
+
                 <!-- Social Links -->
                 <div class="footer-social-links mb-60">
                     <a href="https://www.facebook.com/profile.php?id=100078678734849" title="Facebook" rel="noopener nofollow" target="_blank">
@@ -479,31 +493,31 @@
                     <a href="https://www.linkedin.com/in/saleh-al-saleh-advocates-and-legal-consutants-4682a0225" title="LinkedIn" rel="noopener nofollow" target="_blank">
                         <span class="visually-hidden">LinkedIn</span>
                         <i class="fa-linkedin"></i>
-                     </a>
-                     <a href="admin/admin/lo" title="LinkedIn" rel="noopener nofollow" target="_blank">
+                    </a>
+                    <a href="admin/admin/lo" title="LinkedIn" rel="noopener nofollow" target="_blank">
                         <span class="visually-hidden">LinkedIn</span>
                         <i class="fa-linkedin"></i>
-                     </a>
-                    
+                    </a>
+
                 </div>
                 <!-- End Social Links -->
-                
+
                 <!-- Footer Text -->
                 <div class="footer-text">
-                    
+
                     <!-- Copyright -->
                     <div>
                         <a href="#">© Saleh-Al-Saleh 2024</a>.
                     </div>
                     <!-- End Copyright -->
-                    
-                   
-                    
+
+
+
                 </div>
-                <!-- End Footer Text -->  
-                
-             </div>
-             
+                <!-- End Footer Text -->
+
+            </div>
+
         </footer>
         <!-- End Footer -->
 

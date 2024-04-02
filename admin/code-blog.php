@@ -18,14 +18,20 @@ $query= mysqli_query($conn,$sql);
 $image_uploaded = 0;
 if (isset($_POST["new_post"])) {
  
-	$title=$_POST["title"];
+   $title=$_POST["title"];
    $sub=$_POST["sub"];
-	
+   
    $image =time().$_FILES["image"]['name'];
-   if (move_uploaded_file($_FILES['image']['tmp_name'],$_SERVER['DOCUMENT_ROOT'].'/Saleh-Al-Saleh/admin/uploads/'.$image)) {
-      $target_file = $_SERVER['DOCUMENT_ROOT'].'/Saleh-Al-Saleh/admin/uploads/'.$image;
-      $imageFileType = strtolower(pathinfo($target_file,PATHINFO_EXTENSION));
+   
+      $target_dir = "../admin/uploads/";
+      if(!is_dir($target_dir)){
+         mkdir($target_dir, 0777, true);
+      }else{}
+ 
+      $target_file = $target_dir . basename($_FILES['image']['name']);
       $imageName = basename($_FILES['image']['name']);
+      $imageFileType = strtolower(pathinfo($target_file,PATHINFO_EXTENSION));
+      move_uploaded_file($_FILES['image']['tmp_name'],$target_file);
       $photo = time().$imageName;
       if ($imageFileType != "jpg" && $imageFileType != "jpeg" && $imageFileType != "png") {
          ?>
@@ -33,17 +39,17 @@ if (isset($_POST["new_post"])) {
             alert("Please upload photo having extension .jpg/ .jpeg/ .png");
          </script>
          <?php
-      
+     
       }else{
          $image_uploaded = 1;
       }
-
-
-
-   }
+ 
+ 
+ 
    
-
-   $sql = "INSERT INTO blog(image,title,sub) VALUES('$image', '$title', '$sub')";
+   
+ 
+   $sql = "INSERT INTO blog(image,title,sub) VALUES('$imageName', '$title', '$sub')";
    mysqli_query($conn,$sql);
    header("location:index.php");
    exit();
