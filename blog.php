@@ -330,7 +330,9 @@ include "logic.php"
                                 <div class="post-prev-container">
                                 
                                     <div class="post-prev-img">
-                                    <a href="#"><img src="<?= "admin/uploads/" . $q['image'] ?>" alt="Image Description" /></a>
+                                    <a href="detils-blog.php?id=<?= $q['id'] ?>">
+                                    <img src="<?= "admin/uploads/" . $q['image'] ?>" alt="Image Description" />
+                                </a>
                                     </div>
                                     
                                     <h4 class="post-prev-title golden-title"><a href="#"><?= $q['title'] ?></a></h4>
