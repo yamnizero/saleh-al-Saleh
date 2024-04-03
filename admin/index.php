@@ -26,20 +26,24 @@ $query= mysqli_query($conn,$sql);
             <img src="<?= "uploads/" . $q['image'] ?>" class="card-img-top" alt="Image Description" />
           
             <div class="card-body">
-            <a href="index.php?id=<?=$q['id']?>" 
-                                        class="btn btn-danger btn-sm mx-2"
-                                        onclick="return confirm('Are You Sure You Want to Delete This Data? ')";
-                                        >
-                                        
-                                        Delete
-                                    </a>
+         
                 <h5 class="card-title"><?= $q['title'] ?></h5>
                 <p class="card-text">
                 <?= $q['sub'] ?>
                 </p>
             </div>
             <div class="card-footer">
+                <div class="row">
                 <small class="text-muted"><?= $q['created']?></small>
+                <a href="blog-delete.php?id=<?=$q['id']?>" 
+                                        
+                class="btn bg-gradient-primary btn-sm mx-2"
+                                        onclick="return confirm('Are You Sure You Want to Delete This Data? ')";
+                                        >
+                                        
+                                        Delete
+                                    </a>
+                </div>
             </div>
         </div>
         </div>
