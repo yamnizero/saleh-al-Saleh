@@ -15,14 +15,24 @@ $query= mysqli_query($conn,$sql);
 
 
 <div class="row  row-cols-1 row-cols-md-3 g-4">
-    
-
-    <?php foreach ($query as $q) { ?>
+    <?php
+    $blog = getall('blog') ;
+    if (mysqli_num_rows($blog) > 0) {
+     foreach ($query as $q) { ?>
     
         <div class="col">
         <div class="card">
+            
             <img src="<?= "uploads/" . $q['image'] ?>" class="card-img-top" alt="Image Description" />
+          
             <div class="card-body">
+            <a href="index.php?id=<?=$q['id']?>" 
+                                        class="btn btn-danger btn-sm mx-2"
+                                        onclick="return confirm('Are You Sure You Want to Delete This Data? ')";
+                                        >
+                                        
+                                        Delete
+                                    </a>
                 <h5 class="card-title"><?= $q['title'] ?></h5>
                 <p class="card-text">
                 <?= $q['sub'] ?>
@@ -35,7 +45,10 @@ $query= mysqli_query($conn,$sql);
         </div>
         
     
-    <?php } ?>
+    <?php } }?>
+
+
+
     <!-- <div class="col-md-3 mb-4">
         <div class="card card-body p-3">
             <p class=" text-sm text-capitalize fw-bold">Todday Mo</p>
