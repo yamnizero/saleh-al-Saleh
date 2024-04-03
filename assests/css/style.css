@@ -439,6 +439,7 @@ img:not([draggable]), embed, object, video{
     margin: 0;
     background: none;
 }
+
 .clearlinks a{
     text-decoration: none;
     color: unset;
@@ -3272,7 +3273,8 @@ html:not(.mobile) .wow-p{
 	}
 }
 .fadeIn {
-	animation-name: fadeIn
+	animation-name: fadeIn;
+    width: 200px;
 }
 
 @keyframes fadeInDown{
@@ -4657,7 +4659,7 @@ a.logo:hover{
     -webkit-text-fill-color: transparent;
 }
 .section-title{
-    font-size: 56px;
+    font-size: 30px;
     font-weight: 500;
     line-height: 1.107;
     letter-spacing: -0.03em;
@@ -5444,6 +5446,78 @@ a.logo:hover{
 }
 .marquee-style-5 .marquee-track > div{
    padding-right: 0.7em; 
+}
+/* ==============================
+   Pure CSS Infinite News Ticker Scrolling Animation Effects
+   ============================== */
+
+section .scrollZaid{
+    width: 100%;
+    display: flex;
+    z-index: -10;
+}
+section .scrollZaid div{
+    color: #000;
+    font-size: 2em;
+    background: #ece1a2;
+    white-space: nowrap;
+    font-weight: 900;
+    text-transform: uppercase;
+    animation: animate 10s linear infinite;
+    animation-delay: -10s;
+
+}
+section .scrollZaid div:nth-child(2)
+{
+    animation: animate2 10 linear infinite;
+    animation-delay: -10s;
+}
+section .scrollZaid div span 
+{
+    -webkit-text-stroke: 2px #000;
+    color: transparent;
+}
+@keyframes animate 
+{
+    0%
+    {
+        transform: translateX(100%);
+    }
+    100%
+    {
+        transform: translateX(-100%);
+    }
+}
+@keyframes animate2 
+{
+    0%
+    {
+        transform: translateX(0);
+    }
+    100%
+    {
+        transform: translateX(-200%);
+    }
+}
+section .scrollZaid.text{
+    transform: rotate(30deg) translateY(200px) translateX(-200px);
+    
+}
+section .scrollZaid.text2{
+    transform: rotate(-25deg) translateY(120px) translateX(-200px);
+   
+}
+section .scrollZaid.text3{
+    transform: rotate(25deg) translateY(300px) translateX(-200px);
+    
+}
+section .scrollZaid.text4{
+    transform: rotate(-2deg) translateY(-150px) translateX(-200px);
+    
+}
+section .scrollZaid.text5{
+    transform: rotate(5deg) translateY(250px) translateX(-200px);
+    
 }
 
 
@@ -6583,6 +6657,7 @@ img.services-image{
     width: 1em;
     height: 1em;
     fill: currentColor;
+    color: rgb(194, 178, 89);
 }
 .alt-features-title{
     margin-bottom: 11px;
@@ -8657,9 +8732,14 @@ a.portfolio-5-link:hover .portfolio-5-title span{
 .post-prev-text{
     margin-bottom: 30px;
     font-size: 16px;
-    line-height: 1.5;
+    line-height: 1.3;
     letter-spacing: normal;
     color: var(--color-gray-1);
+    max-height: 3em; /* افتراضياً، 1em يساوي ارتفاع سطر واحد */
+    /* max-lines: 3; */
+    overflow: hidden;
+    text-overflow: ellipsis; /* إضافة نقط الانقطاع في حال تجاوز النص الحد المسموح به */
+    
 }
 .post-prev-title{
     padding-top: 40px;
@@ -8769,7 +8849,7 @@ a.portfolio-5-link:hover .portfolio-5-title span{
     transform: scale(1.05) translateZ(0.1px);
 }
 .post-prev-2-info{
-    margin-bottom: 18px;
+    margin-bottom: 30px;
     font-size: 15px;
     font-weight: 400;
     line-height: 1.466;
@@ -8781,6 +8861,7 @@ a.portfolio-5-link:hover .portfolio-5-title span{
     font-weight: 400;
     line-height: 1.3125;
     letter-spacing: -0.03em;
+    
 }
 .post-prev-2-title a{
     text-decoration: none;    
@@ -8814,7 +8895,7 @@ a.portfolio-5-link:hover .portfolio-5-title span{
    border-radius: 100px;
 }
 .light-content .post-prev-2-title a{
-    color: #fff;
+    color: #D5BD4E;
 }
 
 
@@ -9196,7 +9277,7 @@ a.portfolio-5-link:hover .portfolio-5-title span{
     transform-origin: right center;
 }
 .light-content .ci-icon{
-    color: #fff !important;
+    color: #f3c33d !important;
 }
 .light-content .ci-icon:before{
     background-color: #fff;
@@ -12472,3 +12553,54 @@ html:not(.mobile) .owl-animate-fadeInDown{
       inset 0 -2px 5px 1px #b17d10, inset 0 -1px 1px 3px rgba(250, 227, 133, 1);
   }
   
+
+  .golden-title{
+    color: #D5BD4E;
+  }
+
+  .hs-title-service{
+    margin-top: 0;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.085;
+    letter-spacing: -0.035em;
+}
+
+
+
+.containerb {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-block: 2rem;
+    gap: 2rem;
+    background: var(--bg);
+    border-radius: 20px;
+    padding: 50px 0px;
+  }
+  
+  img {
+    max-width: 100%;
+    object-fit: cover;
+  }
+  
+  .cardb {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: clamp(20rem, calc(20rem + 2vw), 22rem);
+    overflow: hidden;
+    box-shadow: 0 .1rem 1rem rgba(0, 0, 0, 0.1);
+    border-radius: 1em;
+    background: #fff;
+  }
+  
+  .card__bodyb {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+  }
+  
+
+ 
